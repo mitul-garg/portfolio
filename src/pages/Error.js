@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Error = () => {
-  return <div>error</div>;
+  return <div className="error">error</div>;
 };

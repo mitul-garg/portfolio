@@ -32,9 +32,9 @@ export const Sidebar = () => {
           const { id, icon, url } = link;
           return (
             <li key={id}>
-              <Link to={url} className="social-link">
+              <a href={url} className="social-link">
                 {icon}
-              </Link>
+              </a>
             </li>
           );
         })}

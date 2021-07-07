@@ -11,11 +11,16 @@ export const links = [
   },
   {
     id: 3,
+    text: "open source",
+    url: "/opensource",
+  },
+  {
+    id: 4,
     text: "projects",
     url: "/projects",
   },
   {
-    id: 4,
+    id: 5,
     text: "contact",
     url: "/contact",
   },

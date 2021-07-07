@@ -6,6 +6,7 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
 import { Contact } from "./pages/Contact";
+import { OpenSource } from "./pages/OpenSource";
 import { Error } from "./pages/Error";
 
 // import components
@@ -24,6 +25,9 @@ const App = () => {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/opensource">
+          <OpenSource />
         </Route>
         <Route path="/projects">
           <Projects />
