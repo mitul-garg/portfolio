@@ -463,6 +463,7 @@ body {
   justify-content: center;
   place-items: center;
   gap: 2rem;
+  background-color: white;
 }
 .blogs h1 {
   color: #102a42;
@@ -479,7 +480,7 @@ body {
   gap: 1.2rem;
 }
 .blog-card {
-  background-color: white;
+  background-color: #f1f5f8;
   display: flex;
   flex-direction: column;
   place-items: center;
@@ -523,6 +524,109 @@ body {
 }
 
 /* blogs end */
+
+/* home projects starts */
+.home-projects {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.home-projects h3 {
+  color: #102a42;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 2.4px;
+  text-decoration: underline #2caeba 0.3rem;
+  text-underline-offset: 0.7rem;
+}
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 90%;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  width: 600px;
+}
+.img-holder {
+  width: 100%;
+  height: 300px;
+}
+.project-img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+.img-overlay {
+  opacity: 0.5;
+  background-color: #2caeba;
+  width: 100%;
+  height: 300px;
+  transform: translateY(-100%);
+  transition: all 0.5s ease-in-out;
+}
+.project:hover .img-overlay {
+  opacity: 0;
+}
+.project-info {
+  background-color: white;
+  padding: 1rem 2rem;
+}
+.project-info h2 {
+  color: #102a42;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-decoration: underline 0.2rem #2caeba;
+  text-underline-offset: 0.7rem;
+}
+.project-info p {
+  color: #324d67;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  width: 90%;
+}
+.tech-used {
+  margin-top: 0.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+.tech {
+  background-color: #dae2ec;
+  color: #617d98;
+  padding: 0.25rem 0.5rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.code-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.code-link {
+  color: #2caeba;
+  transition: all 0.3s ease;
+}
+.code-link:hover {
+  color: #222222;
+}
+/* home projects ends */
 
 /* media queries starts */
 @media (max-width: 900px) {
@@ -693,5 +797,19 @@ body {
     flex-direction: column;
   }
   /* blogs ends */
+  /* home projects start */
+  .project {
+    width: 350px;
+  }
+  .img-holder {
+    height: 225px;
+  }
+  .project-img {
+    height: 225px;
+  }
+  .img-overlay {
+    height: 225px;
+  }
+  /* home projects end */
 }
 /* media queries ends */
