@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { SiCodechef, SiCodeforces } from "react-icons/si";
+import { SiCodechef, SiCodeforces, SiGithub } from "react-icons/si";
 
 export const socialLinks = [
   {
@@ -17,5 +17,10 @@ export const socialLinks = [
     id: 3,
     icon: <SiCodeforces className="social-icon" />,
     url: "https://codeforces.com/profile/mitulgarg",
+  },
+  {
+    id: 4,
+    icon: <SiGithub className="social-icon" />,
+    url: "https://github.com/mitul-garg",
   },
 ];
