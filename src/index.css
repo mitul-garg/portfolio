@@ -181,7 +181,7 @@ body {
 /* footer ends */
 
 /* about page starts */
-.about {
+.about-me {
   margin-top: 1rem;
   display: flex;
   gap: 1rem;
@@ -763,7 +763,7 @@ body {
   /* hero ends */
 
   /* about page starts */
-  .about {
+  .about-me {
     flex-direction: column;
   }
   .about-hero {
