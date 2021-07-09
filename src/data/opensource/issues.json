@@ -1,0 +1,653 @@
+{
+  "data": {
+    "user": {
+      "issues": {
+        "totalCount": 31,
+        "nodes": [
+          {
+            "id": "MDU6SXNzdWU4ODA2MzgwNTk=",
+            "closed": false,
+            "title": "Adding color picker in Whiteboard and Add notes",
+            "createdAt": "2021-05-08T10:35:14Z",
+            "url": "https://github.com/ankidroid/Anki-Android/issues/8795",
+            "number": 8795,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "login": "ankidroid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4NDkyNjg2NzQ=",
+            "closed": false,
+            "title": "Adding leak canary ",
+            "createdAt": "2021-04-02T15:02:21Z",
+            "url": "https://github.com/ankidroid/Anki-Android/issues/8436",
+            "number": 8436,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "login": "ankidroid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MzY4ODEyNTE=",
+            "closed": true,
+            "title": "[Bug] Select Many not consistent with configuration changes",
+            "createdAt": "2021-03-20T18:30:06Z",
+            "url": "https://github.com/ankidroid/Anki-Android/issues/8294",
+            "number": 8294,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "login": "ankidroid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MzQxMDI5OTk=",
+            "closed": true,
+            "title": "Moving Support AnkiDroid to Navigation Drawer",
+            "createdAt": "2021-03-17T19:20:21Z",
+            "url": "https://github.com/ankidroid/Anki-Android/issues/8260",
+            "number": 8260,
+            "assignees": {
+              "nodes": [
+                {
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                  "name": "Mrudul Tora",
+                  "url": "https://github.com/mrudultora"
+                }
+              ]
+            },
+            "repository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "login": "ankidroid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MzE3OTgwMzk=",
+            "closed": true,
+            "title": "Add Changelogs in release builds",
+            "createdAt": "2021-03-15T13:12:39Z",
+            "url": "https://github.com/ankidroid/Anki-Android/issues/8230",
+            "number": 8230,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "login": "ankidroid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MzEyMjg5NTA=",
+            "closed": true,
+            "title": "Adding more translations to app",
+            "createdAt": "2021-03-14T18:45:54Z",
+            "url": "https://github.com/ankidroid/Anki-Android/issues/8205",
+            "number": 8205,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "login": "ankidroid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4Mjc5MjE3NTg=",
+            "closed": true,
+            "title": "Adding dark mode in custom tabs",
+            "createdAt": "2021-03-10T15:33:51Z",
+            "url": "https://github.com/ankidroid/Anki-Android/issues/8164",
+            "number": 8164,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "login": "ankidroid",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTU0MTk5OTM=",
+            "closed": false,
+            "title": "Commons isn't responding in Limited connection Mode",
+            "createdAt": "2021-02-24T12:11:47Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4277",
+            "number": 4277,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTU0MDg0MTE=",
+            "closed": false,
+            "title": "App Crashes on opening image after changing system wide theme in WikidataItemDetailsActivity ",
+            "createdAt": "2021-02-24T11:55:41Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4276",
+            "number": 4276,
+            "assignees": {
+              "nodes": [
+                {
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                  "name": "Mrudul Tora",
+                  "url": "https://github.com/mrudultora"
+                }
+              ]
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTQxMDk2MzA=",
+            "closed": true,
+            "title": "Changing language from settings doesn't work",
+            "createdAt": "2021-02-23T05:05:29Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4270",
+            "number": 4270,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTQwODQyNTk=",
+            "closed": false,
+            "title": "App crashes on switching between contribution tab and nearby tab fastly",
+            "createdAt": "2021-02-23T04:15:54Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4269",
+            "number": 4269,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTI4MjgwMzY=",
+            "closed": false,
+            "title": "Feature: Adding App links/Deep links to the app",
+            "createdAt": "2021-02-21T11:02:49Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4261",
+            "number": 4261,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTIyNjQxMzA=",
+            "closed": true,
+            "title": "App crashes on setting avatar when not logged in",
+            "createdAt": "2021-02-19T19:03:24Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4254",
+            "number": 4254,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTExNzQ3NzU=",
+            "closed": true,
+            "title": "App crash in WikidataItemDetailsActivity on clicking any media",
+            "createdAt": "2021-02-18T14:56:50Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4244",
+            "number": 4244,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MTAwNDY5NDM=",
+            "closed": false,
+            "title": "App crashes on trying to upload a media directly from camera.",
+            "createdAt": "2021-02-17T10:17:42Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4238",
+            "number": 4238,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MDg3NTAzODU=",
+            "closed": true,
+            "title": "Update readme with all the necessary information",
+            "createdAt": "2021-02-15T18:43:52Z",
+            "url": "https://github.com/mrudultora/DeviceInfo/issues/12",
+            "number": 12,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "login": "mrudultora",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MDc3MTI0NDY=",
+            "closed": true,
+            "title": "App crashes when pressing back button in bookmarks fragment",
+            "createdAt": "2021-02-13T09:17:52Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4226",
+            "number": 4226,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MDcwMjMwMTg=",
+            "closed": false,
+            "title": "App crashes in ExploreListRootFragment ",
+            "createdAt": "2021-02-12T07:42:27Z",
+            "url": "https://github.com/commons-app/apps-android-commons/issues/4224",
+            "number": 4224,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "login": "commons-app",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU4MDY0NDc0ODM=",
+            "closed": false,
+            "title": "NPE after going back from Product Browsing Activity",
+            "createdAt": "2021-02-11T14:36:45Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3827",
+            "number": 3827,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3OTQ4NzA5NTM=",
+            "closed": true,
+            "title": "NPE at ProductEditNutritionFactsFragment",
+            "createdAt": "2021-01-27T08:07:19Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3782",
+            "number": 3782,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3OTIyNDE0ODY=",
+            "closed": false,
+            "title": "ISE - volumeUnitPreference does not exist",
+            "createdAt": "2021-01-22T19:11:39Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3769",
+            "number": 3769,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3OTExNTIyMjg=",
+            "closed": true,
+            "title": "Allowing permission but a dialog box appears asking to activate it",
+            "createdAt": "2021-01-21T14:30:23Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3762",
+            "number": 3762,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3ODg0OTQ2MjA=",
+            "closed": true,
+            "title": "Environment tab shows content of sysnthesis tab when opened first time",
+            "createdAt": "2021-01-18T19:14:58Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3754",
+            "number": 3754,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3ODc2MzE2NjA=",
+            "closed": false,
+            "title": "IllegalArgumentException while opening edit",
+            "createdAt": "2021-01-17T07:03:26Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3751",
+            "number": 3751,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3ODc0NzcxODE=",
+            "closed": false,
+            "title": "NPE after saving edit",
+            "createdAt": "2021-01-16T14:26:00Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3749",
+            "number": 3749,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3ODc0NjI1MTk=",
+            "closed": true,
+            "title": "npe after going back to scan from SummaryFragment",
+            "createdAt": "2021-01-16T13:06:26Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3748",
+            "number": 3748,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3ODcxNTAyMzY=",
+            "closed": true,
+            "title": "Unable to switch to light theme",
+            "createdAt": "2021-01-15T19:43:40Z",
+            "url": "https://github.com/signalapp/Signal-Android/issues/10663",
+            "number": 10663,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "Signal-Android",
+              "url": "https://github.com/signalapp/Signal-Android",
+              "owner": {
+                "login": "signalapp",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/702459?v=4",
+                "url": "https://github.com/signalapp"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3ODU5ODEyODQ=",
+            "closed": true,
+            "title": "Name of some products are visible only partially",
+            "createdAt": "2021-01-14T13:18:05Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3733",
+            "number": 3733,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3ODQxMTkzMzQ=",
+            "closed": true,
+            "title": "Skip and Next Button hides behind the on screen buttons",
+            "createdAt": "2021-01-12T10:41:34Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3723",
+            "number": 3723,
+            "assignees": {
+              "nodes": [
+                {
+                  "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                  "name": "Mrudul Tora",
+                  "url": "https://github.com/mrudultora"
+                }
+              ]
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3NjI3MzU3NDQ=",
+            "closed": true,
+            "title": "App Crashed on opening Preferences from Sidebar",
+            "createdAt": "2020-12-11T18:33:35Z",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/issues/3614",
+            "number": 3614,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "login": "openfoodfacts",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDU6SXNzdWU3NjEyNzA5MDY=",
+            "closed": false,
+            "title": "Use of deprecated methods at many places in whole project",
+            "createdAt": "2020-12-10T14:06:17Z",
+            "url": "https://github.com/openMF/mobile-wallet/issues/1078",
+            "number": 1078,
+            "assignees": {
+              "nodes": []
+            },
+            "repository": {
+              "name": "mobile-wallet",
+              "url": "https://github.com/openMF/mobile-wallet",
+              "owner": {
+                "login": "openMF",
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3473607?v=4",
+                "url": "https://github.com/openMF"
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "Y3Vyc29yOnYyOpK5MjAyMC0xMi0xMFQxOTozNjoxNyswNTozMM4tYBJ6"
+        }
+      }
+    }
+  }
+}

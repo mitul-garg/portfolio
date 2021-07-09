@@ -1,0 +1,46 @@
+{
+  "data": {
+    "user": {
+      "repositoriesContributedTo": {
+        "totalCount": 5,
+        "nodes": [
+          {
+            "owner": {
+              "login": "signalapp",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/702459?v=4",
+              "__typename": "Organization"
+            }
+          },
+          {
+            "owner": {
+              "login": "ankidroid",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+              "__typename": "Organization"
+            }
+          },
+          {
+            "owner": {
+              "login": "openfoodfacts",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+              "__typename": "Organization"
+            }
+          },
+          {
+            "owner": {
+              "login": "commons-app",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+              "__typename": "Organization"
+            }
+          },
+          {
+            "owner": {
+              "login": "openMF",
+              "avatarUrl": "https://avatars.githubusercontent.com/u/3473607?v=4",
+              "__typename": "Organization"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

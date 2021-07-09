@@ -13,6 +13,8 @@ import { Error } from "./pages/Error";
 import { Navbar } from "./components/Navbar";
 import { Sidebar } from "./components/Sidebar";
 import { Footer } from "./components/Footer";
+import { AllPRs } from "./components/AllPRs";
+import { AllIssues } from "./components/AllIssues";
 
 const App = () => {
   return (
@@ -34,6 +36,12 @@ const App = () => {
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/pullrequests">
+          <AllPRs />
+        </Route>
+        <Route path="/issues">
+          <AllIssues />
         </Route>
         <Route path="*">
           <Error />

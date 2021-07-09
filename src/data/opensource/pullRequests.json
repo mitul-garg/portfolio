@@ -1,0 +1,1395 @@
+{
+  "data": {
+    "user": {
+      "pullRequests": {
+        "totalCount": 69,
+        "nodes": [
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjE2MTg2MjI2",
+            "title": "Lint: Lint rule for use of UIUtils.showSnackbar instead of Snackbar.make",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8625",
+            "state": "MERGED",
+            "createdAt": "2021-04-15T16:20:39Z",
+            "number": 8625,
+            "changedFiles": 4,
+            "additions": 203,
+            "deletions": 8,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjEyOTQ2NDEw",
+            "title": "Added a test to check all the constants in actions class are annotated",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8559",
+            "state": "MERGED",
+            "createdAt": "2021-04-10T18:49:57Z",
+            "number": 8559,
+            "changedFiles": 1,
+            "additions": 17,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjA5MTAyNTk2",
+            "title": "Fixes #8260 Moved Support AnkiDroid to navigation drawer",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8486",
+            "state": "MERGED",
+            "createdAt": "2021-04-05T18:01:30Z",
+            "number": 8486,
+            "changedFiles": 6,
+            "additions": 49,
+            "deletions": 19,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjA4MzQ2NjA5",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/32",
+            "state": "OPEN",
+            "createdAt": "2021-04-03T07:35:46Z",
+            "number": 32,
+            "changedFiles": 37,
+            "additions": 14390,
+            "deletions": 8,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjA3ODM4OTcx",
+            "title": "Fixes #8151 Build flavors for Amazon Appstore and Google Playstore",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8427",
+            "state": "MERGED",
+            "createdAt": "2021-04-02T06:14:20Z",
+            "number": 8427,
+            "changedFiles": 9,
+            "additions": 91,
+            "deletions": 10,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjA0NDI0MDQ5",
+            "title": "Fixes #8287 Fail CI if Analytics string constants are changed",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8405",
+            "state": "MERGED",
+            "createdAt": "2021-03-30T20:52:22Z",
+            "number": 8405,
+            "changedFiles": 3,
+            "additions": 203,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjAyMzAyNzA0",
+            "title": "Unit Test for MapUtil",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8375",
+            "state": "MERGED",
+            "createdAt": "2021-03-28T20:15:49Z",
+            "number": 8375,
+            "changedFiles": 1,
+            "additions": 51,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjAyMjk0NzUw",
+            "title": "Fixes #7757 Lint check for onPrepareOptionsMenu",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8374",
+            "state": "CLOSED",
+            "createdAt": "2021-03-28T19:20:55Z",
+            "number": 8374,
+            "changedFiles": 0,
+            "additions": 0,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjAyMjc3Mjc5",
+            "title": "Unit Test for ArrayUtil",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8372",
+            "state": "MERGED",
+            "createdAt": "2021-03-28T17:29:42Z",
+            "number": 8372,
+            "changedFiles": 1,
+            "additions": 38,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NjAxNjQ2Njkx",
+            "title": "Added play/pause sound in Reviewer",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8346",
+            "state": "CLOSED",
+            "createdAt": "2021-03-26T14:11:56Z",
+            "number": 8346,
+            "changedFiles": 2,
+            "additions": 35,
+            "deletions": 16,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTk5NzIxNzQ5",
+            "title": "Fixes #7013 Fixed deprecated NetworkInfo",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8331",
+            "state": "MERGED",
+            "createdAt": "2021-03-24T14:06:35Z",
+            "number": 8331,
+            "changedFiles": 1,
+            "additions": 24,
+            "deletions": 6,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTk3NTQxMzMw",
+            "title": "Fixes #8294 Fixed select many wrt configuration changes",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8306",
+            "state": "MERGED",
+            "createdAt": "2021-03-21T18:52:04Z",
+            "number": 8306,
+            "changedFiles": 1,
+            "additions": 4,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTk3NDk1MjUy",
+            "title": "Fixes #8151 Build flavors for Amazon Appstore and Google Playstore",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8302",
+            "state": "CLOSED",
+            "createdAt": "2021-03-21T14:21:10Z",
+            "number": 8302,
+            "changedFiles": 6,
+            "additions": 80,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTk2ODAyMjE0",
+            "title": "Fixes #7910 Select many option in Card browser",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8278",
+            "state": "MERGED",
+            "createdAt": "2021-03-19T18:48:43Z",
+            "number": 8278,
+            "changedFiles": 1,
+            "additions": 22,
+            "deletions": 10,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTk0Nzk5OTQ3",
+            "title": "Fixes #8210 Added analytics/metrics to help section",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8257",
+            "state": "MERGED",
+            "createdAt": "2021-03-17T15:00:08Z",
+            "number": 8257,
+            "changedFiles": 4,
+            "additions": 93,
+            "deletions": 47,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTkzMDg1NTUz",
+            "title": "Fixes #8230 Added change logs for release builds",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8231",
+            "state": "MERGED",
+            "createdAt": "2021-03-15T13:42:53Z",
+            "number": 8231,
+            "changedFiles": 2,
+            "additions": 11,
+            "deletions": 9,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTkyNTcwMDYz",
+            "title": "Fixes #7526 Added icons to Multimedia menu in Note Editor",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8204",
+            "state": "MERGED",
+            "createdAt": "2021-03-14T16:06:13Z",
+            "number": 8204,
+            "changedFiles": 7,
+            "additions": 68,
+            "deletions": 9,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTkyMzUwNDQ0",
+            "title": "Fixes #6535 ChangeLogs theme with respect to app theme",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8181",
+            "state": "MERGED",
+            "createdAt": "2021-03-13T11:47:45Z",
+            "number": 8181,
+            "changedFiles": 1,
+            "additions": 31,
+            "deletions": 9,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTkxNDU3OTk0",
+            "title": "Fixes #8164 Changed custom tabs theme with respect to app theme",
+            "url": "https://github.com/ankidroid/Anki-Android/pull/8175",
+            "state": "MERGED",
+            "createdAt": "2021-03-12T08:03:17Z",
+            "number": 8175,
+            "changedFiles": 7,
+            "additions": 58,
+            "deletions": 9,
+            "baseRepository": {
+              "name": "Anki-Android",
+              "url": "https://github.com/ankidroid/Anki-Android",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3320903?v=4",
+                "login": "ankidroid",
+                "url": "https://github.com/ankidroid"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTg2MzA1MTIw",
+            "title": "Made the day and night strings untranslatable",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3876",
+            "state": "MERGED",
+            "createdAt": "2021-03-07T18:44:28Z",
+            "number": 3876,
+            "changedFiles": 1,
+            "additions": 1,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTgyOTUyMzAw",
+            "title": "Fixed ISE in ProductEditOverviewFragment",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3867",
+            "state": "CLOSED",
+            "createdAt": "2021-03-02T11:23:32Z",
+            "number": 3867,
+            "changedFiles": 1,
+            "additions": 3,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTgyMjU4MDU2",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/26",
+            "state": "CLOSED",
+            "createdAt": "2021-03-01T17:47:57Z",
+            "number": 26,
+            "changedFiles": 37,
+            "additions": 14390,
+            "deletions": 8,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc3NjQ0NjE2",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/23",
+            "state": "CLOSED",
+            "createdAt": "2021-02-22T13:35:20Z",
+            "number": 23,
+            "changedFiles": 36,
+            "additions": 14057,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc3MTA2MDEy",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/21",
+            "state": "CLOSED",
+            "createdAt": "2021-02-21T12:46:57Z",
+            "number": 21,
+            "changedFiles": 20,
+            "additions": 7980,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc2OTk0Nzgw",
+            "title": "Fixes #4254 Fixed crashing on setting avatar when not logged in",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4258",
+            "state": "MERGED",
+            "createdAt": "2021-02-20T19:30:10Z",
+            "number": 4258,
+            "changedFiles": 1,
+            "additions": 5,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc2OTcwMTk2",
+            "title": "Fixes #4129 Resolved App crash on logging out from Contributors Tab",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4257",
+            "state": "MERGED",
+            "createdAt": "2021-02-20T16:32:52Z",
+            "number": 4257,
+            "changedFiles": 1,
+            "additions": 16,
+            "deletions": 14,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc2NTcxMDUw",
+            "title": "Fixes #4245 Removed category editing accessibility when user not logged in",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4251",
+            "state": "MERGED",
+            "createdAt": "2021-02-19T16:26:23Z",
+            "number": 4251,
+            "changedFiles": 1,
+            "additions": 9,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc2MzkxNDQy",
+            "title": "Fixes #4244 - App crash in WikidataItemDetailsActivity resolved",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4248",
+            "state": "MERGED",
+            "createdAt": "2021-02-19T11:26:46Z",
+            "number": 4248,
+            "changedFiles": 1,
+            "additions": 4,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc2Mzc5OTI3",
+            "title": "Fixes #3994 Hided Peer Review in Limited Connection Mode",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4247",
+            "state": "MERGED",
+            "createdAt": "2021-02-19T11:07:13Z",
+            "number": 4247,
+            "changedFiles": 1,
+            "additions": 10,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc1OTMzMzM2",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/20",
+            "state": "CLOSED",
+            "createdAt": "2021-02-18T19:37:52Z",
+            "number": 20,
+            "changedFiles": 21,
+            "additions": 7984,
+            "deletions": 7,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc0OTcyMjQ0",
+            "title": "Changed label of Limited Connection switch",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4240",
+            "state": "MERGED",
+            "createdAt": "2021-02-17T14:47:43Z",
+            "number": 4240,
+            "changedFiles": 2,
+            "additions": 2,
+            "deletions": 2,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc0ODEwNDg0",
+            "title": "Fixed the crashing on uploading media from camera",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4239",
+            "state": "CLOSED",
+            "createdAt": "2021-02-17T10:32:14Z",
+            "number": 4239,
+            "changedFiles": 1,
+            "additions": 3,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc0NDIwNDE3",
+            "title": "Revert \"New Crowdin translations by Github Action\"",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/19",
+            "state": "MERGED",
+            "createdAt": "2021-02-16T19:21:37Z",
+            "number": 19,
+            "changedFiles": 16,
+            "additions": 0,
+            "deletions": 6416,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc0NDE4MTk0",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/18",
+            "state": "CLOSED",
+            "createdAt": "2021-02-16T19:17:17Z",
+            "number": 18,
+            "changedFiles": 1,
+            "additions": 10,
+            "deletions": 10,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc0NDEzNjgw",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/17",
+            "state": "CLOSED",
+            "createdAt": "2021-02-16T19:08:15Z",
+            "number": 17,
+            "changedFiles": 1,
+            "additions": 10,
+            "deletions": 10,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc0MjE0NTkx",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/16",
+            "state": "CLOSED",
+            "createdAt": "2021-02-16T13:57:23Z",
+            "number": 16,
+            "changedFiles": 16,
+            "additions": 6416,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTc0MDQyODEy",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/14",
+            "state": "CLOSED",
+            "createdAt": "2021-02-16T09:16:13Z",
+            "number": 14,
+            "changedFiles": 16,
+            "additions": 6416,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTczNDEwNjU4",
+            "title": "New Crowdin updates",
+            "url": "https://github.com/mrudultora/DeviceInfo/pull/8",
+            "state": "CLOSED",
+            "createdAt": "2021-02-15T09:18:33Z",
+            "number": 8,
+            "changedFiles": 16,
+            "additions": 6416,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "DeviceInfo",
+              "url": "https://github.com/mrudultora/DeviceInfo",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTcyOTIyNzU2",
+            "title": "Fixed app crash in bookmark fragment backpress",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4228",
+            "state": "CLOSED",
+            "createdAt": "2021-02-13T11:14:41Z",
+            "number": 4228,
+            "changedFiles": 1,
+            "additions": 3,
+            "deletions": 4,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTcyMzc0NjAz",
+            "title": "Fixed crashing in ExploreListRootFragment",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4225",
+            "state": "CLOSED",
+            "createdAt": "2021-02-12T09:00:52Z",
+            "number": 4225,
+            "changedFiles": 2,
+            "additions": 5,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTcxOTQ5MDA1",
+            "title": "Fixes and improvement to dark mode",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3828",
+            "state": "MERGED",
+            "createdAt": "2021-02-11T16:30:13Z",
+            "number": 3828,
+            "changedFiles": 23,
+            "additions": 161,
+            "deletions": 64,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTY5MDIyMzA2",
+            "title": "Hided NOVA in OBF Ingredients Tab",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3819",
+            "state": "MERGED",
+            "createdAt": "2021-02-07T18:25:00Z",
+            "number": 3819,
+            "changedFiles": 1,
+            "additions": 2,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTY4NTAxODkz",
+            "title": "Hided Eco-score hint in OBF",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3815",
+            "state": "MERGED",
+            "createdAt": "2021-02-05T17:26:22Z",
+            "number": 3815,
+            "changedFiles": 1,
+            "additions": 3,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTY4NDU5NjI4",
+            "title": "Fixed dark mode glitch in compare mode",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3814",
+            "state": "MERGED",
+            "createdAt": "2021-02-05T16:15:32Z",
+            "number": 3814,
+            "changedFiles": 1,
+            "additions": 1,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTY3MDQ2MDYw",
+            "title": "Hided additive cards in OPF",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3797",
+            "state": "MERGED",
+            "createdAt": "2021-02-03T18:26:41Z",
+            "number": 3797,
+            "changedFiles": 2,
+            "additions": 7,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTY0NDk0NTE3",
+            "title": "Fixed WrapperTests",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3793",
+            "state": "MERGED",
+            "createdAt": "2021-01-30T19:21:19Z",
+            "number": 3793,
+            "changedFiles": 2,
+            "additions": 5,
+            "deletions": 5,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTY0NDg2ODc3",
+            "title": "Made tools for URL field clearer",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3792",
+            "state": "MERGED",
+            "createdAt": "2021-01-30T18:25:58Z",
+            "number": 3792,
+            "changedFiles": 3,
+            "additions": 38,
+            "deletions": 29,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTYyNDM1OTgy",
+            "title": "Removed Packager Code ToolTip",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3784",
+            "state": "MERGED",
+            "createdAt": "2021-01-27T11:28:07Z",
+            "number": 3784,
+            "changedFiles": 3,
+            "additions": 21,
+            "deletions": 30,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTYyMDU4NTQw",
+            "title": "Fixed click on ADEME link",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3781",
+            "state": "MERGED",
+            "createdAt": "2021-01-26T21:10:13Z",
+            "number": 3781,
+            "changedFiles": 1,
+            "additions": 2,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTYwOTYxNTIw",
+            "title": "Converted MapOfStringsToStringConverter kotlin file to java file",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3779",
+            "state": "MERGED",
+            "createdAt": "2021-01-25T10:11:25Z",
+            "number": 3779,
+            "changedFiles": 2,
+            "additions": 57,
+            "deletions": 43,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTYwNDkxNzk0",
+            "title": "Updated Forked Repo",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3776",
+            "state": "CLOSED",
+            "createdAt": "2021-01-23T21:24:49Z",
+            "number": 3776,
+            "changedFiles": 0,
+            "additions": 0,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTYwNDgxMTU0",
+            "title": "Show nutrition table and nutrition per portion button if nutritional values are available",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3775",
+            "state": "MERGED",
+            "createdAt": "2021-01-23T19:57:20Z",
+            "number": 3775,
+            "changedFiles": 2,
+            "additions": 9,
+            "deletions": 2,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTYwMTc2NjE1",
+            "title": " Resolved layout issues for additive cards",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3770",
+            "state": "MERGED",
+            "createdAt": "2021-01-22T19:51:38Z",
+            "number": 3770,
+            "changedFiles": 1,
+            "additions": 14,
+            "deletions": 14,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTYwMTE4Nzg1",
+            "title": "Fixed ISE when fragment is not attached to activity",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3768",
+            "state": "MERGED",
+            "createdAt": "2021-01-22T17:51:22Z",
+            "number": 3768,
+            "changedFiles": 1,
+            "additions": 1,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU5ODU4OTI5",
+            "title": "Fixed Permission bug",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3766",
+            "state": "MERGED",
+            "createdAt": "2021-01-22T10:14:29Z",
+            "number": 3766,
+            "changedFiles": 1,
+            "additions": 2,
+            "deletions": 2,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU2MTYzOTkx",
+            "title": "Hided ecoscore in OBF scan",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3747",
+            "state": "MERGED",
+            "createdAt": "2021-01-16T11:56:16Z",
+            "number": 3747,
+            "changedFiles": 1,
+            "additions": 3,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU1OTQ4NTcz",
+            "title": "Fixed grey food scores displayed for cosmetics",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3745",
+            "state": "MERGED",
+            "createdAt": "2021-01-15T21:13:23Z",
+            "number": 3745,
+            "changedFiles": 1,
+            "additions": 17,
+            "deletions": 17,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU1OTI5NjIz",
+            "title": "Fixed crash in edit mode in obf",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3744",
+            "state": "MERGED",
+            "createdAt": "2021-01-15T20:26:28Z",
+            "number": 3744,
+            "changedFiles": 1,
+            "additions": 1,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU1NjQ1MDY3",
+            "title": "Added Build Number in settings",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3740",
+            "state": "MERGED",
+            "createdAt": "2021-01-15T11:40:50Z",
+            "number": 3740,
+            "changedFiles": 1,
+            "additions": 3,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU1NjA2NTAz",
+            "title": "feat: Added Layout and basic code to native sign-up",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3737",
+            "state": "OPEN",
+            "createdAt": "2021-01-15T10:28:57Z",
+            "number": 3737,
+            "changedFiles": 5,
+            "additions": 485,
+            "deletions": 22,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU0NzQxNjEy",
+            "title": "Fixed deep link issue when opening product from web",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3731",
+            "state": "MERGED",
+            "createdAt": "2021-01-14T07:39:30Z",
+            "number": 3731,
+            "changedFiles": 1,
+            "additions": 20,
+            "deletions": 13,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU0MTE0Mjg2",
+            "title": "Fixed Skip and Next hiding behind Virtual Buttons",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3726",
+            "state": "MERGED",
+            "createdAt": "2021-01-13T11:23:14Z",
+            "number": 3726,
+            "changedFiles": 1,
+            "additions": 1,
+            "deletions": 0,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTU0MDQzMzU4",
+            "title": "Updated forked repo",
+            "url": "https://github.com/mrudultora/openfoodfacts-androidapp/pull/1",
+            "state": "MERGED",
+            "createdAt": "2021-01-13T09:24:40Z",
+            "number": 1,
+            "changedFiles": 492,
+            "additions": 13045,
+            "deletions": 11286,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/mrudultora/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/65870389?u=20c6d1c9ee97e668fe1e1f361c6a0e7374be847c&v=4",
+                "login": "mrudultora",
+                "url": "https://github.com/mrudultora"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTUzMzA0NjQ3",
+            "title": "Fixed btnAlignment issue in Additive cards",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3722",
+            "state": "MERGED",
+            "createdAt": "2021-01-12T09:07:00Z",
+            "number": 3722,
+            "changedFiles": 1,
+            "additions": 1,
+            "deletions": 2,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTM3Mjg5ODQy",
+            "title": "Bug fixed of App Crash on pressing preferences in sidebar",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3615",
+            "state": "MERGED",
+            "createdAt": "2020-12-11T19:09:45Z",
+            "number": 3615,
+            "changedFiles": 2,
+            "additions": 3,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTM3MTQ1MDYz",
+            "title": "Crash at Advanced Search Resolved",
+            "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp/pull/3613",
+            "state": "CLOSED",
+            "createdAt": "2020-12-11T16:51:49Z",
+            "number": 3613,
+            "changedFiles": 1,
+            "additions": 2,
+            "deletions": 2,
+            "baseRepository": {
+              "name": "openfoodfacts-androidapp",
+              "url": "https://github.com/openfoodfacts/openfoodfacts-androidapp",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/1937790?v=4",
+                "login": "openfoodfacts",
+                "url": "https://github.com/openfoodfacts"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTM2MTYyMjEx",
+            "title": "Kyc crash resolved",
+            "url": "https://github.com/openMF/mobile-wallet/pull/1079",
+            "state": "OPEN",
+            "createdAt": "2020-12-10T18:40:47Z",
+            "number": 1079,
+            "changedFiles": 4,
+            "additions": 14,
+            "deletions": 6,
+            "baseRepository": {
+              "name": "mobile-wallet",
+              "url": "https://github.com/openMF/mobile-wallet",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3473607?v=4",
+                "login": "openMF",
+                "url": "https://github.com/openMF"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTM1OTQwNDk2",
+            "title": "Added a Toast when no of the sim is selected and confirm is pressed",
+            "url": "https://github.com/openMF/mobile-wallet/pull/1077",
+            "state": "OPEN",
+            "createdAt": "2020-12-10T13:34:14Z",
+            "number": 1077,
+            "changedFiles": 2,
+            "additions": 5,
+            "deletions": 1,
+            "baseRepository": {
+              "name": "mobile-wallet",
+              "url": "https://github.com/openMF/mobile-wallet",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/3473607?v=4",
+                "login": "openMF",
+                "url": "https://github.com/openMF"
+              }
+            }
+          },
+          {
+            "id": "MDExOlB1bGxSZXF1ZXN0NTM1Mjk4MzMw",
+            "title": "Updated dependencies and Gradle Plugin to latest versions",
+            "url": "https://github.com/commons-app/apps-android-commons/pull/4093",
+            "state": "CLOSED",
+            "createdAt": "2020-12-09T16:21:08Z",
+            "number": 4093,
+            "changedFiles": 3,
+            "additions": 48,
+            "deletions": 46,
+            "baseRepository": {
+              "name": "apps-android-commons",
+              "url": "https://github.com/commons-app/apps-android-commons",
+              "owner": {
+                "avatarUrl": "https://avatars.githubusercontent.com/u/20982797?v=4",
+                "login": "commons-app",
+                "url": "https://github.com/commons-app"
+              }
+            }
+          }
+        ],
+        "pageInfo": {
+          "hasNextPage": false,
+          "endCursor": "Y3Vyc29yOnYyOpK5MjAyMC0xMi0wOVQyMTo1MTowOCswNTozMM4f6AEa"
+        }
+      }
+    }
+  }
+}
