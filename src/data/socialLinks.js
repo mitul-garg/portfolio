@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { SiCodechef, SiCodeforces, SiGithub } from "react-icons/si";
+import { SiCodechef, SiCodeforces, SiGithub, SiMedium } from "react-icons/si";
 
 export const socialLinks = [
   {
@@ -22,5 +22,10 @@ export const socialLinks = [
     id: 4,
     icon: <SiGithub className="social-icon" />,
     url: "https://github.com/mitul-garg",
+  },
+  {
+    id: 5,
+    icon: <SiMedium className="social-icon" />,
+    url: "https://mitulgarg.medium.com/",
   },
 ];

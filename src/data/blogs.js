@@ -1,9 +1,9 @@
 export const blogs = [
   {
     id: 1,
-    title: "Falana Thinkana",
+    title: "Making Tabs in React JS",
     intro:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laboriosam molestias doloremque fugit! Rem esse dolorum iure culpa. Rerum debitis quos accusamus possimus, numquam nulla. Ex unde enim est excepturi consectetur quaerat numquam, reiciendis temporibus accusantium ducimus, beatae inventore quos amet dolorem! Blanditiis suscipit magni illum sunt qui perferendis porro?",
-    link: "https://www.google.com",
+      "Tabs are a great choice to display different categories of a dataset. The user can click on various buttons to change the content. In this short post, I will be showing you how to make a Tabs Component in React JS.",
+    link: "https://medium.com/@mitulgarg2000/making-tabs-in-react-js-afbb2c6ec0df",
   },
 ];

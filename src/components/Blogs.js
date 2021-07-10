@@ -23,7 +23,7 @@ export const Blogs = () => {
         })}
       </div>
       {/* medium ka link idhr */}
-      <a href="https://www.google.com" className="hero-btn">
+      <a href="https://mitulgarg.medium.com/" className="hero-btn">
         All Blogs
       </a>
     </section>

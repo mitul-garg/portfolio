@@ -1040,3 +1040,21 @@ body {
   /* opensource ends */
 }
 /* media queries ends */
+
+.wait-opensource {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  gap: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: #102a42;
+}
+.wait-opensource h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+.wait-opensource p {
+  font-size: 1.2rem;
+  text-align: center;
+}
