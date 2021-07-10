@@ -28,7 +28,7 @@ export const OSPullRequests = () => {
           else classnames += "closed";
           return (
             <div key={id} className={classnames}>
-              <h3>{title}</h3>
+              <h3 className="pr-title">{title}</h3>
               <p>
                 #{number} opened on {createdAt.substring(0, 10)}
               </p>
@@ -41,6 +41,13 @@ export const OSPullRequests = () => {
                 <span className="deletions">{deletions}-</span>
               </p>
               <p>{changedFiles} Files Changed</p>
+              <p>
+                {state === "MERGED"
+                  ? "Merged"
+                  : state === "OPEN"
+                  ? "Open"
+                  : "Closed"}
+              </p>
             </div>
           );
         })}

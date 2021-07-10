@@ -490,6 +490,7 @@ body {
   padding: 1rem 0.75rem;
   border-radius: 0.5rem;
   transition: all 0.3s ease-in-out;
+  max-width: 400px;
 }
 .blog-card h3 {
   color: #102a42;
@@ -498,6 +499,7 @@ body {
   letter-spacing: 2px;
   text-decoration: underline 0.2rem #2caeba;
   text-underline-offset: 0.7rem;
+  line-height: 3rem;
 }
 .blog-card p {
   color: #324d67;
@@ -591,6 +593,7 @@ body {
   letter-spacing: 2px;
   text-decoration: underline 0.2rem #2caeba;
   text-underline-offset: 0.7rem;
+  line-height: 3rem;
 }
 .project-info p {
   color: #324d67;
@@ -731,10 +734,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.2rem;
+  border-radius: 0.3rem;
 }
 .pr h3 {
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
+}
+.pr-title {
+  line-height: normal;
 }
 .pr p {
   font-size: 1.1rem;
@@ -753,15 +760,16 @@ body {
 }
 .merged {
   background-color: #e7dcfc;
-  box-shadow: 5px 5px #6423db;
+  border: solid 2px #6423db;
 }
 .open {
   background-color: #dcffe4;
-  box-shadow: 5px 5px #3bd85f;
+  border: solid 2px #3bd85f;
 }
 .closed {
   background-color: #ffdce0;
-  box-shadow: 5px 5px #e24e60;
+  border: solid 2px #e24e60;
+  border-radius: 0.3rem;
 }
 .allprs {
   padding-top: 2rem;
@@ -809,11 +817,13 @@ body {
 }
 .open-issue {
   background-color: #dcffe4;
-  box-shadow: 5px 5px #3bd85f;
+  border: solid 2px #3bd85f;
+  border-radius: 0.3rem;
 }
 .closed-issue {
   background-color: #ffdce0;
-  box-shadow: 5px 5px #e24e60;
+  border: solid 2px #e24e60;
+  border-radius: 0.3rem;
 }
 /* issues */
 

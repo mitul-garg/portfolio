@@ -23,6 +23,7 @@ export const AllIssues = () => {
                 <p>
                   Repository: <a href={repository.url}>{repository.name}</a>
                 </p>
+                <p>{closed ? "Closed" : "Open"}</p>
               </div>
             );
           })}

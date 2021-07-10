@@ -8,8 +8,15 @@ import { socialLinks } from "../data/socialLinks";
 export const Sidebar = () => {
   const { showSidebar, closeSidebar } = useGlobalContext();
 
-  if (showSidebar) document.body.style.overflow = "hidden";
-  else document.body.style.overflow = "auto";
+  if (showSidebar) {
+    document.body.style.overflow = "hidden";
+    if (document.querySelector(".img-overlay"))
+      document.querySelector(".img-overlay").style.display = "none";
+  } else {
+    document.body.style.overflow = "auto";
+    if (document.querySelector(".img-overlay"))
+      document.querySelector(".img-overlay").style.display = "block";
+  }
   return (
     <div className={`${showSidebar ? "sidebar show-sidebar" : "sidebar"}`}>
       <div className="sidebar-header">
