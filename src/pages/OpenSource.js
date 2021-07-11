@@ -14,7 +14,8 @@ export const OpenSource = () => {
       <div className="wait-opensource">
         <h3>Coming Soon...</h3>
         <p>
-          Meanwhile, you can see the UI of this page on Mrudul Tora's Portfolio{" "}
+          Meanwhile, you can see the UI of this page designed by me in Mrudul
+          Tora's Portfolio{" "}
           <a href="https://mrudultora.netlify.app/opensource">here</a>
         </p>
       </div>
