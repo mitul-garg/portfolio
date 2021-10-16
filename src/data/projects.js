@@ -4,6 +4,16 @@ import img3 from "../assets/images/projects-3.jpg";
 
 export const projects = [
   {
+    id: 0,
+    title: "Location Blog",
+    img: img3,
+    details:
+      "Location Blog is a MERN App where everyone can share images of the places they visit and also see other people's places.",
+    technologies: ["MERN Stack"],
+    sourceCode: "https://github.com/mitul-garg/location-blog",
+    link: "https://mitul-garg-location-blog.netlify.app",
+  },
+  {
     id: 1,
     title: "Portfolio",
     img: img1,

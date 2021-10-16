@@ -6,7 +6,8 @@ import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Projects } from "./pages/Projects";
 import { Contact } from "./pages/Contact";
-import { OpenSource } from "./pages/OpenSource";
+// import { OpenSource } from "./pages/OpenSource";
+import { DSAStats } from "./pages/DSAStats";
 import { Error } from "./pages/Error";
 
 // import components
@@ -28,8 +29,11 @@ const App = () => {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/opensource">
+        {/* <Route path="/opensource">
           <OpenSource />
+        </Route> */}
+        <Route path="/dsastats">
+          <DSAStats />
         </Route>
         <Route path="/projects">
           <Projects />

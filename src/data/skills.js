@@ -9,18 +9,30 @@ export const skills = [
   },
   {
     id: 3,
-    name: "html",
+    name: "node.js",
   },
   {
     id: 4,
-    name: "css",
+    name: "express.js",
   },
   {
     id: 5,
-    name: "javascript",
+    name: "mongodb",
   },
   {
     id: 6,
+    name: "html",
+  },
+  {
+    id: 7,
+    name: "css",
+  },
+  {
+    id: 8,
+    name: "javascript",
+  },
+  {
+    id: 9,
     name: "firebase",
   },
 ];

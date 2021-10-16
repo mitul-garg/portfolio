@@ -9,10 +9,15 @@ export const links = [
     text: "about",
     url: "/about",
   },
+  // {
+  //   id: 3,
+  //   text: "open source",
+  //   url: "/opensource",
+  // },
   {
     id: 3,
-    text: "open source",
-    url: "/opensource",
+    text: "DSA Stats",
+    url: "/dsastats",
   },
   {
     id: 4,

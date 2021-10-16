@@ -18,6 +18,7 @@ body {
 }
 
 .about,
+.dsa,
 .contact,
 .error,
 .projects,
@@ -1058,3 +1059,29 @@ body {
   font-size: 1.2rem;
   text-align: center;
 }
+
+/* dsa stats */
+.dsastats-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  place-items: center;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+.dsastats-details a {
+  color: black;
+}
+.dsastats-details .dsa-button {
+  width: 400px;
+}
+.dsastats-details .dsa-button:hover a {
+  color: white;
+  transition: all 0.3s linear;
+}
+@media screen and (max-width: 900px) {
+  .dsastats-details .dsa-button {
+    width: 150px;
+  }
+}
+/* dsa stats */

@@ -1,11 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import {
-  SiCodeforces,
-  SiGithub,
-  SiMedium,
-  SiStackoverflow,
-} from "react-icons/si";
+import { SiCodeforces, SiGithub, SiLeetcode, SiCodechef } from "react-icons/si";
 
 export const socialLinks = [
   {
@@ -25,12 +20,12 @@ export const socialLinks = [
   },
   {
     id: 4,
-    icon: <SiMedium className="social-icon" />,
-    url: "https://mitulgarg.medium.com/",
+    icon: <SiLeetcode className="social-icon" />,
+    url: "https://leetcode.com/mitulgarg/",
   },
   {
     id: 5,
-    icon: <SiStackoverflow className="social-icon" />,
-    url: "https://stackoverflow.com/users/13457917/mitul-garg",
+    icon: <SiCodechef className="social-icon" />,
+    url: "https://www.codechef.com/users/mitulgarg",
   },
 ];
