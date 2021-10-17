@@ -1085,3 +1085,21 @@ body {
   }
 }
 /* dsa stats */
+
+/* download button resume */
+.resume {
+  margin-right: 1rem;
+}
+.resume-link {
+  color: #bff8fd;
+}
+.hero-btn:hover .resume-link {
+  color: hsl(184, 91%, 17%);
+  transition: all 0.3s linear;
+}
+@media screen and (max-width: 900px) {
+  .resume {
+    margin-left: 1rem;
+  }
+}
+/* download button resume */

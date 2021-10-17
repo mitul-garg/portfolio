@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { socialLinks } from "../data/socialLinks";
 import heroImg from "../assets/images/hero.svg";
+import { DownloadButton } from "../components/CVButton";
 
 export const Hero = () => {
   return (
@@ -10,6 +11,7 @@ export const Hero = () => {
         <div className="underline"></div>
         <h1>I'm Mitul</h1>
         <h6>BTech Undergrad and Learner</h6>
+        <DownloadButton />
         <Link to="/contact">
           <button className="hero-btn">Contact Me</button>
         </Link>
