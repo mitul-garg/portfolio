@@ -8,19 +8,26 @@ import { BiBarChart } from "react-icons/bi";
 import { BiMoon, BiSun } from "react-icons/bi";
 const parent = document.body;
 
+let darkMode = false;
+if (localStorage.getItem("theme") === "dark") {
+  darkMode = true;
+}
+
+if (darkMode) {
+  parent.classList.add("dark");
+}
+// dark mode
+
 export const Navbar = () => {
   const { openSidebar } = useGlobalContext();
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(darkMode);
 
   const darkModeHandler = () => {
-    let newState;
-    if (isDarkMode) {
-      newState = false;
-    } else {
-      newState = true;
-    }
     parent.classList.toggle("dark");
-    setIsDarkMode(newState);
+    if (parent.classList.contains("dark"))
+      localStorage.setItem("theme", "dark");
+    else localStorage.removeItem("theme");
+    setIsDarkMode((prevMode) => !prevMode);
   };
 
   return (
