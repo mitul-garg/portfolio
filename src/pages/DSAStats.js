@@ -37,19 +37,13 @@ export const DSAStats = () => {
           </a>
         </button>
         <button className="dsa-button skill">
-          <a href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/">
-            Leetcode
-          </a>
+          <a href="https://leetcode.com/mitulgarg/">Leetcode</a>
         </button>
         <button className="dsa-button skill">
-          <a href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/">
-            Codechef
-          </a>
+          <a href="https://www.codechef.com/users/mitulgarg">Codechef</a>
         </button>
         <button className="dsa-button skill">
-          <a href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/">
-            Codeforces
-          </a>
+          <a href="https://codeforces.com/profile/mitulgarg">Codeforces</a>
         </button>
       </div>
     </div>

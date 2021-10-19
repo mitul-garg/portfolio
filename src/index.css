@@ -41,12 +41,15 @@ body {
   padding: 0.8rem 0.8rem;
 }
 .nav-left {
+  display: flex;
+  place-items: center;
+  gap: 1rem;
   font-size: 2rem;
   letter-spacing: 2px;
   color: #2caeba;
   font-weight: bolder;
 }
-.nav-left span {
+.nav-left span span {
   color: #102a42;
 }
 .nav-right {

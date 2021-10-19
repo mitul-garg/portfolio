@@ -18,6 +18,7 @@ The Portfolio comprises of various sections including Opensource Contributions d
 ## Features
 
 - Completely Responsive Design
+- Dark Mode Toggle
 - All data is loaded dynamically from Javascript and JSON files
 - Navigation using Navbar for Desktop screens and Sidebar for Mobile Screens
 - Error Page if someone drops in on wrong address
