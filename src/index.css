@@ -1066,7 +1066,7 @@ body {
 /* dsa stats */
 .dsastats-details {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 1rem;
   place-items: center;
   align-items: center;
