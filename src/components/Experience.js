@@ -43,7 +43,7 @@ export const Experience = () => {
                       return (
                         <li key={index}>
                           <FaAngleDoubleRight className="bullet" />
-                          <p>{duty}</p>
+                          {duty}
                         </li>
                       );
                     })}
