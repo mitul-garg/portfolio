@@ -9,7 +9,7 @@ const problemsData = {
   labels: ["GFG Practice", "Codechef", /*"Codeforces" ,*/ "Leetcode"],
   datasets: [
     {
-      data: [400, 80, /*298,*/ 200],
+      data: [400, 80, /*298,*/ 400],
       backgroundColor: ["#2a9d8f", "#cb997e", /*"#264653",*/ "#e9c46a"],
       hoverBackgroundColor: [
         "#2a9d8fdd",
@@ -23,10 +23,11 @@ const problemsData = {
 
 const achievements = [
   // initial spaces in each achievement are a must for styling purpose
+  "  Rank 2300/23k+ (Top 10%) in Leetcode Weekly Contest 278",
   "  Global Rank 494/10k+ (Top 5%) in Codechef Starters 16",
   "  Global Rank 721/8k+ (Top 10%) in Code Senso organized by IIIT Allahabad",
-  "  Global Rank 240/7k+ (Top 4%) in Codechef December Lunchtime 2021 Division 3",
   "  3-Star on Codechef (Max Rating : 1756)",
+  "  Rated 1705 on Leetcode",
 ];
 
 export const DSAStats = () => {
@@ -44,7 +45,7 @@ export const DSAStats = () => {
       <div className="dsastats-details skills">
         <button className="dsa-button skill">
           <a href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/">
-            GFG Profile <SiGeeksforgeeks />
+            GFG Practice <SiGeeksforgeeks />
           </a>
         </button>
         <button className="dsa-button skill">
