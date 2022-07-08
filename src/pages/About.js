@@ -15,16 +15,24 @@ export const About = () => {
             Govindram Seksaria Institute of Technology and Science, Indore.
             Since my school days, I have been quite passionate about computers
             and have always wanted to work on them. Talking about my hobbies and
-            interests, I love playing and watching Cricket and Chess matches. At
-            present, I am seeking an Internship to apply and improve on honed
-            skills.
+            interests, I love playing and watching Cricket and Chess. At
+            present, I am seeking a Full Time Opportunity as a Software Engineer
+            to apply and improve on honed skills.
           </div>
           <div className="skills">
             {skills.map((skill) => {
-              const { id, name } = skill;
+              const { id, name, icon } = skill;
               return (
                 <button key={id} className="skill">
                   {name}
+                  <span
+                    style={{
+                      fontSize: "25px",
+                      marginLeft: "4px",
+                    }}
+                  >
+                    {icon}
+                  </span>
                 </button>
               );
             })}

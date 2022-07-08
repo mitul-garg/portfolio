@@ -4,7 +4,7 @@ A Single Page React App built with `react-router-dom` for navigation on other pa
 
 ## View Project
 
-[Visit Now!](https://mitul-garg.netlify.app)
+[Visit Now!](https://mitulgarg.me)
 
 ## Overview
 

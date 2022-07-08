@@ -37,8 +37,8 @@ export const Navbar = () => {
           <span>M</span>G
         </span>
         <span onClick={darkModeHandler}>
-          {isDarkMode && <BiSun />}
-          {!isDarkMode && <BiMoon />}
+          {isDarkMode && <BiSun className="theme-icon" />}
+          {!isDarkMode && <BiMoon className="theme-icon" />}
         </span>
       </div>
       <div className="nav-right">

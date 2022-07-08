@@ -14,14 +14,14 @@ export const projects = [
     link: "https://mitul-garg-location-blog.netlify.app",
   },
   {
-    id: 1,
-    title: "Portfolio",
+    id: 8,
+    title: "ToraLabs - Freelance Project ",
     img: img3,
     details:
-      "A Single Page React App built with react-router-dom for navigation on other pages.The Portfolio is completely responsive and looks good on all screen sizes. All the data is dynamically loaded in each component using Javascript imports!",
-    technologies: ["CSS", "Javascript", "React JS"],
-    sourceCode: "https://github.com/mitul-garg/portfolio",
-    link: "https://mitul-garg.netlify.app",
+      "Revamped the UI of the landing page and created a product page (Device Info) from scratch, Created UI elements like Sliders(using Swiper), Animated Cards, Navbar using plain CSS, Used Email JS to send the contact form responses directly to the client’s email",
+    technologies: ["React JS", "CSS", "Email JS", "Swiper"],
+    sourceCode: "https://github.com/mitul-garg/toralabs",
+    link: "https://www.toralabs.in",
   },
   {
     id: 2,
@@ -33,10 +33,31 @@ export const projects = [
     sourceCode: "https://github.com/mitul-garg/mgames",
     link: "https://mgames.netlify.app",
   },
+
+  {
+    id: 1,
+    title: "Portfolio",
+    img: img1,
+    details:
+      "A Single Page React App built with react-router-dom for navigation on other pages.The Portfolio is completely responsive and looks good on all screen sizes. All the data is dynamically loaded in each component using Javascript imports!",
+    technologies: ["CSS", "Javascript", "React JS"],
+    sourceCode: "https://github.com/mitul-garg/portfolio",
+    link: "https://mitulgarg.me",
+  },
+  {
+    id: 7,
+    title: "E-Commerce Website",
+    img: img2,
+    details:
+      "A fully-functional E-Commerce website with the ability to receive payments and place orders using Commerce JS and Stripe",
+    technologies: ["React JS", "Commerce JS", "Stripe", "Material UI"],
+    sourceCode: "https://github.com/mitul-garg/e-commerce",
+    link: "https://mg-ecommerce.netlify.app/",
+  },
   {
     id: 3,
     title: "TODO Sync App",
-    img: img1,
+    img: img3,
     details:
       "Login Sign-up system using Email and Password authentication provided by Firebase. The app is completely responsive and syncs the todos to the Firestore. Todos can be added, edited and deleted in single clicks",
     technologies: ["HTML", "CSS", "Javascript", "Firebase"],
@@ -46,7 +67,7 @@ export const projects = [
   {
     id: 4,
     title: "Kalaamanch Website",
-    img: img3,
+    img: img1,
     details:
       "A basic landing page for our Organization with all our details. All our competitions are organised smoothly on this website",
     technologies: ["HTML", "CSS", "Javascript"],
@@ -66,7 +87,7 @@ export const projects = [
   {
     id: 6,
     title: "Mini Web Projects",
-    img: img1,
+    img: img3,
     details:
       "These projects were made by me to practice Vanilla JS. The ideas were taken from various courses provided by Edyoda and Freecodecamp",
     technologies: ["HTML", "CSS", "Javascript"],

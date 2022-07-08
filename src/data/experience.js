@@ -2,12 +2,12 @@ export const jobs = [
   {
     id: 1,
     title: "Subject Matter Expert (CSE)",
-    company: "abekus",
-    dates: "may 2022 - ongoing",
+    company: "wikasta",
+    dates: "may 2022 - june 2022",
     duties: [
-      "  Creating Software Development and Programming related content",
-      "  Contributing Questions on Data Structures, Algorithms, Operating Systems, Machine Learning",
-      "  Reporting bugs, feedback, and suggestions on previously existing content",
+      "  Created Software Development and Programming related content",
+      "  Contributed more than 200 Questions on Data Structures, Algorithms, Machine Learning, HTML, CSS",
+      "  Reported bugs and gave feedback and suggestions on previously existing content",
     ],
   },
   {
@@ -16,9 +16,9 @@ export const jobs = [
     company: "kalaamanch",
     dates: "march 2020 - september 2020",
     duties: [
-      "  Created a website for the College Club from scratch in HTML, CSS and JS",
+      "  Created two versions of the website for the College Club from scratch in HTML, CSS and JS",
+      "  Websites are made mobile-friendly in order to enhance the target audience’s experience",
       "  Dealt with multiple sponsors and ensured smooth conduct of all the Competitions",
-      "  Maintained the Website for 5 Competitions which were all more than 20 Days long",
     ],
   },
 ];
