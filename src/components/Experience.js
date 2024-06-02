@@ -3,7 +3,7 @@ import { FaAngleDoubleRight } from "react-icons/fa";
 import { jobs } from "../data/experience";
 
 export const Experience = () => {
-  const [idx, setIdx] = useState(0);
+  const [idx, setIdx] = useState(jobs[0].id);
 
   const changeIdx = (value) => {
     setIdx(value);

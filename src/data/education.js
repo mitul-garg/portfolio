@@ -1,6 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
+// keep the education you want as default to show up at the zeroth index
 export const education = [
   {
-    id: 1,
+    id: uuidv4(),
     title: "Computer Science and Engineering",
     degree: "BTech",
     institute: "SGSITS Indore",
@@ -8,7 +11,7 @@ export const education = [
     dates: "2023",
   },
   {
-    id: 2,
+    id: uuidv4(),
     title: "CBSE",
     degree: "Higher Secondary",
     institute: "The New Green Field Public School",
@@ -16,7 +19,7 @@ export const education = [
     dates: "2019",
   },
   {
-    id: 3,
+    id: uuidv4(),
     title: "ICSE",
     degree: "Senior Secondary",
     institute: "Little Wonders Convent School",

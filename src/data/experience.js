@@ -1,6 +1,9 @@
+import { v4 as uuidv4 } from "uuid";
+
+// keep the job you want as default to show up at the zeroth index
 export const jobs = [
   {
-    id: 0,
+    id: uuidv4(),
     title: "Software Engineer",
     company: "Optum (UHG)",
     dates: "march 2024 - present",
@@ -11,7 +14,7 @@ export const jobs = [
     ],
   },
   {
-    id: 1,
+    id: uuidv4(),
     title: "SDE Intern - Platform",
     company: "Quantiphi Inc",
     dates: "january 2023 - november 2023",
@@ -22,7 +25,7 @@ export const jobs = [
     ],
   },
   {
-    id: 2,
+    id: uuidv4(),
     title: "Subject Matter Expert (CSE)",
     company: "wikasta",
     dates: "may 2022 - june 2022",
@@ -33,7 +36,7 @@ export const jobs = [
     ],
   },
   {
-    id: 3,
+    id: uuidv4(),
     title: "Software Developer & Sponsorship Coordinator",
     company: "kalaamanch",
     dates: "march 2020 - september 2020",

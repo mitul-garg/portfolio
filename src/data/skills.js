@@ -14,85 +14,86 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { GiArtificialIntelligence } from "react-icons/gi";
 import { SiPostman, SiAmazonaws, SiSpringboot } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
+import { v4 as uuidv4 } from "uuid";
 
 export const skills = [
   {
-    id: 1,
+    id: uuidv4(),
     name: "java",
     icon: <DiJava />,
   },
   {
-    id: 2,
+    id: uuidv4(),
     name: "react js",
     icon: <DiReact />,
   },
   {
-    id: 12,
+    id: uuidv4(),
     name: "aws",
     icon: <SiAmazonaws />,
   },
   {
-    id: 13,
+    id: uuidv4(),
     name: "gcp",
     icon: <DiGoogleCloudPlatform />,
   },
   {
-    id: 14,
+    id: uuidv4(),
     name: "spring boot",
     icon: <SiSpringboot />,
   },
   {
-    id: 15,
+    id: uuidv4(),
     name: "sql",
     icon: <AiOutlineConsoleSql />,
   },
   {
-    id: 9,
+    id: uuidv4(),
     name: "machine learning",
     icon: <GiArtificialIntelligence />,
   },
   {
-    id: 3,
+    id: uuidv4(),
     name: "node js",
     icon: <DiNodejsSmall />,
   },
   {
-    id: 4,
+    id: uuidv4(),
     name: "mongo db",
     icon: <DiMongodb />,
   },
   {
-    id: 5,
+    id: uuidv4(),
     name: "html",
     icon: <DiHtml5 />,
   },
   {
-    id: 6,
+    id: uuidv4(),
     name: "css",
     icon: <DiCss3 />,
   },
   {
-    id: 7,
+    id: uuidv4(),
     name: "javascript",
     icon: <DiJavascript1 />,
   },
   {
-    id: 8,
+    id: uuidv4(),
     name: "firebase",
     icon: <IoLogoFirebase />,
   },
   {
-    id: 10,
+    id: uuidv4(),
     name: "vs code",
     icon: <DiVisualstudio />,
   },
   {
-    id: 11,
+    id: uuidv4(),
     name: "git",
     icon: <DiGit />,
   },
   {
-    id: 12,
+    id: uuidv4(),
     name: "postman",
     icon: <SiPostman />,
   },

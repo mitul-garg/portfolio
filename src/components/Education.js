@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { education } from "../data/education";
 
 export const Education = () => {
-  const [idx, setIdx] = useState(1);
+  const [idx, setIdx] = useState(education[0].id);
 
   const changeIdx = (value) => {
     setIdx(value);
