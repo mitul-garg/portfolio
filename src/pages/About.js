@@ -11,13 +11,14 @@ export const About = () => {
         <article className="about-info">
           <h1>About Me</h1>
           <div className="about-para">
-            I am Mitul Garg, an undergoing Computer Science Undergrad at Shri
-            Govindram Seksaria Institute of Technology and Science, Indore.
-            Since my school days, I have been quite passionate about computers
-            and have always wanted to work on them. Talking about my hobbies and
-            interests, I love playing and watching Cricket and Chess. At
-            present, I am seeking a Full Time Opportunity as a Software Engineer
-            to apply and improve on honed skills.
+            Hello, I'm Mitul Garg, Computer Science Undergrad from Shri
+            Govindram Seksaria Institute of Technology and Science in Indore.
+            Ever since my school days, my passion for computers has driven me
+            towards this field. One of my passions lies in both playing and
+            watching Cricket and Chess. Engaging in these strategic games not
+            only provides me with an avenue for relaxation but also nurtures my
+            analytical thinking. With each passing day, I am excited to embark
+            on this journey of continuous learning and growth.
           </div>
           <div className="skills">
             {skills.map((skill) => {

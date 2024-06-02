@@ -8,10 +8,12 @@ import {
   DiJavascript1,
   DiVisualstudio,
   DiGit,
+  DiGoogleCloudPlatform,
 } from "react-icons/di";
 import { IoLogoFirebase } from "react-icons/io5";
 import { GiArtificialIntelligence } from "react-icons/gi";
-import { SiPostman } from "react-icons/si";
+import { SiPostman, SiAmazonaws, SiSpringboot } from "react-icons/si";
+import { AiOutlineConsoleSql } from "react-icons/ai";
 
 export const skills = [
   {
@@ -23,6 +25,26 @@ export const skills = [
     id: 2,
     name: "react js",
     icon: <DiReact />,
+  },
+  {
+    id: 12,
+    name: "aws",
+    icon: <SiAmazonaws />,
+  },
+  {
+    id: 13,
+    name: "gcp",
+    icon: <DiGoogleCloudPlatform />,
+  },
+  {
+    id: 14,
+    name: "spring boot",
+    icon: <SiSpringboot />,
+  },
+  {
+    id: 15,
+    name: "sql",
+    icon: <AiOutlineConsoleSql />,
   },
   {
     id: 9,

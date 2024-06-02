@@ -10,7 +10,7 @@ export const Hero = () => {
       <article className="intro">
         <div className="underline"></div>
         <h1>I'm Mitul</h1>
-        <h6>CSE'23 at SGSITS Indore</h6>
+        <h6>Software Engineer @ Optum</h6>
         <DownloadButton />
         <Link to="/contact">
           <button className="hero-btn">Contact Me</button>

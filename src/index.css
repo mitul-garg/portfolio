@@ -93,7 +93,7 @@ body {
 .intro {
   font-family: "Roboto", sans-serif;
   text-align: center;
-  width: 50%;
+  width: 90%;
 }
 .underline {
   height: 0.1rem;
@@ -448,7 +448,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
-  place-items: center;
+  /* place-items: center; */
 }
 .job-duties li {
   /* display: flex;
@@ -638,6 +638,10 @@ body {
 }
 .code-link:hover {
   color: #222222;
+}
+.gcp-link {
+  font-size: 0.9rem;
+  margin-left: 5px;
 }
 /* home projects ends */
 

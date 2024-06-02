@@ -4,7 +4,7 @@ export const education = [
     title: "Computer Science and Engineering",
     degree: "BTech",
     institute: "SGSITS Indore",
-    grades: "8.05 CGPA",
+    grades: "8.27 CGPA",
     dates: "2023",
   },
   {
