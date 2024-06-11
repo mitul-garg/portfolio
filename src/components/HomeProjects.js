@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 export const HomeProjects = () => {
-  const newProjects = projects.slice(0, 4);
+  const newProjects = projects.slice(0, 3);
   return (
     <section className="home-projects">
       <h3>Featured Projects</h3>
@@ -17,7 +17,6 @@ export const HomeProjects = () => {
             <article key={id} className="project">
               <div className="img-holder">
                 <img src={img} alt="" className="project-img" />
-                <div className="img-overlay"></div>
               </div>
               <article className="project-info">
                 <h2>{title}</h2>

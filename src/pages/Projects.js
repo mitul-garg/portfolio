@@ -16,7 +16,7 @@ export const Projects = () => {
               <article key={id} className="project">
                 <div className="img-holder">
                   <img src={img} alt="" className="project-img" />
-                  <div className="img-overlay"></div>
+                  {/* <div className="img-overlay"></div> */}
                 </div>
                 <article className="project-info">
                   <h2>{title}</h2>
