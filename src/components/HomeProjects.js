@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 export const HomeProjects = () => {
-  const newProjects = projects.slice(0, 3);
+  const newProjects = projects.slice(0, 4);
   return (
     <section className="home-projects">
       <h3>Featured Projects</h3>

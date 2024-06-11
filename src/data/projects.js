@@ -69,7 +69,7 @@ export const projects = [
     title: "Courses API",
     img: springtodo,
     details:
-      "Courses API is a basic CRUD API for seeing, adding, deleting and updating courses.",
+      "Courses API is a basic CRUD API for seeing, adding, deleting and updating courses. The courses can be listed altogether as well as specifically",
     technologies: ["Spring Boot", "SQL", "OOPS", "Maven"],
     sourceCode: "https://github.com/mitul-garg/courses-api-spring-boot",
     link: "https://drive.google.com/file/d/152tZrIjaE8eQWW0h2_o5CXwCLI3Mo6b1/view",
