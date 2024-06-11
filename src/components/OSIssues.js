@@ -22,7 +22,10 @@ export const OSIssues = () => {
                 #{number} opened on {createdAt.substring(0, 10)}
               </p>
               <p>
-                Repository: <a href={repository.url}>{repository.name}</a>
+                Repository:{" "}
+                <a href={repository.url} target="_blank" rel="noreferrer">
+                  {repository.name}
+                </a>
               </p>
               <p>{closed ? "Closed" : "Open"}</p>
             </div>

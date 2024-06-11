@@ -14,7 +14,12 @@ export const Blogs = () => {
               <h3>{title}</h3>
               <p>
                 {intro}{" "}
-                <a href={link} className="blog-link">
+                <a
+                  href={link}
+                  className="blog-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Read More
                 </a>{" "}
               </p>
@@ -23,7 +28,12 @@ export const Blogs = () => {
         })}
       </div>
       {/* medium ka link idhr */}
-      <a href="https://mitulgarg.medium.com/" className="hero-btn">
+      <a
+        href="https://mitulgarg.medium.com/"
+        className="hero-btn"
+        target="_blank"
+        rel="noreferrer"
+      >
         All Blogs
       </a>
     </section>

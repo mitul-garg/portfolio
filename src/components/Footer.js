@@ -10,7 +10,12 @@ export const Footer = () => {
           const { id, icon, url } = link;
           return (
             <li key={id}>
-              <a href={url} className="footer-social-link">
+              <a
+                href={url}
+                className="footer-social-link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {icon}
               </a>
             </li>

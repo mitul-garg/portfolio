@@ -46,22 +46,32 @@ export const DSAStats = () => {
       </div>
       <div className="dsastats-details skills">
         <button className="dsa-button skill">
-          <a href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/">
+          <a
+            href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/"
+            target="_blank"
+            rel="noreferrer"
+          >
             GFG Practice <SiGeeksforgeeks />
           </a>
         </button>
         <button className="dsa-button skill">
-          <a href="https://leetcode.com/mitulgarg/">
+          <a
+            href="https://leetcode.com/mitulgarg/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Leetcode <SiLeetcode />{" "}
           </a>
         </button>
         {/* <button className="dsa-button skill">
-          <a href="https://www.codechef.com/users/mitulgarg">
+          <a href="https://www.codechef.com/users/mitulgarg" target="_blank"
+        rel="noreferrer">
             Codechef <SiCodechef />
           </a>
         </button> */}
         {/* <button className="dsa-button skill">
-          <a href="https://codeforces.com/profile/mitul-garg">Codeforces</a>
+          <a href="https://codeforces.com/profile/mitul-garg" target="_blank"
+        rel="noreferrer">Codeforces</a>
         </button> */}
 
         <ul className="job-duties">
@@ -71,7 +81,11 @@ export const DSAStats = () => {
                 <FaStar className="bullet" />
                 {acm}
                 {index === 0 && (
-                  <a href="https://tinyurl.com/bde8sj43">
+                  <a
+                    href="https://tinyurl.com/bde8sj43"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <FaExternalLinkAlt className="code-link gcp-link" />
                   </a>
                 )}

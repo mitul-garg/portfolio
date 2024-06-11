@@ -39,7 +39,12 @@ export const Sidebar = () => {
           const { id, icon, url } = link;
           return (
             <li key={id}>
-              <a href={url} className="social-link">
+              <a
+                href={url}
+                target="_blank"
+                rel="noreferrer"
+                className="social-link"
+              >
                 {icon}
               </a>
             </li>

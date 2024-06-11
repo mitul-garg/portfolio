@@ -31,10 +31,10 @@ export const Projects = () => {
                     })}
                   </div>
                   <div className="code-links">
-                    <a href={sourceCode}>
+                    <a target="_blank" rel="noreferrer" href={sourceCode}>
                       <SiGithub className="code-link" />
                     </a>
-                    <a href={link}>
+                    <a href={link} target="_blank" rel="noreferrer">
                       <FiExternalLink className="code-link" />
                     </a>
                   </div>

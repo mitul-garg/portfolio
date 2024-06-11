@@ -16,7 +16,13 @@ export const OpenSource = () => {
         <p>
           Meanwhile, you can see the UI of this page designed by me in Mrudul
           Tora's Portfolio{" "}
-          <a href="https://mrudultora.netlify.app/opensource">here</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://mrudultora.netlify.app/opensource"
+          >
+            here
+          </a>
         </p>
       </div>
     </div>

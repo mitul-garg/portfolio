@@ -32,10 +32,10 @@ export const HomeProjects = () => {
                   })}
                 </div>
                 <div className="code-links">
-                  <a href={sourceCode}>
+                  <a href={sourceCode} target="_blank" rel="noreferrer">
                     <SiGithub className="code-link" />
                   </a>
-                  <a href={link}>
+                  <a href={link} target="_blank" rel="noreferrer">
                     <FiExternalLink className="code-link" />
                   </a>
                 </div>

@@ -20,7 +20,12 @@ export const Hero = () => {
             const { id, icon, url } = link;
             return (
               <li key={id}>
-                <a href={url} className="hero-social-link">
+                <a
+                  href={url}
+                  className="hero-social-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {icon}
                 </a>
               </li>

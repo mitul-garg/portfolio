@@ -33,7 +33,9 @@ export const AllPRs = () => {
                 </p>
                 <p>
                   Repository:{" "}
-                  <a href={baseRepository.url}>{baseRepository.name}</a>
+                  <a href={baseRepository.url} target="_blank" rel="noreferrer">
+                    {baseRepository.name}
+                  </a>
                 </p>
                 <p>
                   <span className="additions">{additions}+ </span>
