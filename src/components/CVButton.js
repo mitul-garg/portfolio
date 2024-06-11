@@ -1,17 +1,12 @@
-import { FaDownload } from "react-icons/fa";
-import CV from "../assets/cv.pdf";
-
-export const DownloadButton = (props) => {
+export const ResumeButton = () => {
   return (
     <button className="hero-btn resume">
       <a
-        href={CV}
-        download="MitulGarg"
-        target="_blank"
-        rel="noreferrer"
+        href="https://drive.google.com/file/d/1-4YBRo8oqRfJbIvyQoY8g7l2f4OAxHWI/view"
         className="resume-link"
+        target="_blank"
       >
-        Resume <FaDownload />
+        Resume
       </a>
     </button>
   );
