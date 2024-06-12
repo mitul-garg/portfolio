@@ -43,7 +43,11 @@ export const HomeProjects = () => {
           );
         })}
       </div>
-      <Link to="projects" className="hero-btn">
+      <Link
+        to="projects"
+        className="hero-btn"
+        onClick={() => window.scrollTo(0, 0)}
+      >
         All Projects
       </Link>
     </section>
