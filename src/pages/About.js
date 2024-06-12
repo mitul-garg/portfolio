@@ -1,6 +1,6 @@
 import React from "react";
 import heroImgAbout from "../assets/images/hero.svg";
-import { skills } from "../data/skills";
+import { category } from "../data/skills";
 import { Education } from "../components/Education";
 
 export const About = () => {
@@ -20,8 +20,28 @@ export const About = () => {
             analytical thinking. With each passing day, I am excited to embark
             on this journey of continuous learning and growth.
           </div>
-          <div className="skills">
-            {skills.map((skill) => {
+          <div className="categories">
+            {category.map(({ id, name, skills }) => (
+              <div key={id} className="category">
+                <div>{name}</div>
+                <div className="skills">
+                  {skills.map(({ id, name, icon }) => (
+                    <button key={id} className="skill">
+                      {name}
+                      <span
+                        style={{
+                          fontSize: "25px",
+                          marginLeft: "4px",
+                        }}
+                      >
+                        {icon}
+                      </span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            ))}
+            {/* {skills.map((skill) => {
               const { id, name, icon } = skill;
               return (
                 <button key={id} className="skill">
@@ -36,7 +56,7 @@ export const About = () => {
                   </span>
                 </button>
               );
-            })}
+            })} */}
           </div>
         </article>
       </div>

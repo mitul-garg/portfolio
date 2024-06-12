@@ -200,7 +200,8 @@ body {
 .about-info {
   display: flex;
   flex-direction: column;
-  place-items: left;
+  place-items: center;
+  text-align: justify;
   font-family: "Roboto", sans-serif;
   color: #102a42;
 }
@@ -221,13 +222,13 @@ body {
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
 }
-.skills {
+.categories {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   margin-right: 1rem;
 }
-.skill {
+.category {
   background-color: #dae2ec;
   color: #617d98;
   text-transform: uppercase;
@@ -239,12 +240,21 @@ body {
   font-family: "Open Sans", sans-serif;
   transition: all 0.3s ease-in-out;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.skill:hover {
+.category:hover {
   background-color: #2caeba;
   color: white;
+}
+.skills {
+  height: 0;
+  opacity: 0;
+}
+.category:hover .skills {
+  height: auto;
+  opacity: 100%;
 }
 
 /* about page ends */
@@ -1088,6 +1098,10 @@ body {
 }
 .dsastats-details .dsa-button {
   width: 400px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 3px;
 }
 .dsastats-details .dsa-button:hover a {
   color: white;
@@ -1095,7 +1109,7 @@ body {
 }
 @media screen and (max-width: 900px) {
   .dsastats-details .dsa-button {
-    width: 150px;
+    width: 220px;
   }
 }
 /* dsa stats */

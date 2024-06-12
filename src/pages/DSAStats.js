@@ -44,25 +44,27 @@ export const DSAStats = () => {
           </div>
         </div>
       </div>
-      <div className="dsastats-details skills">
-        <button className="dsa-button skill">
-          <a
-            href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GFG Practice <SiGeeksforgeeks />
-          </a>
-        </button>
-        <button className="dsa-button skill">
-          <a
-            href="https://leetcode.com/mitulgarg/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Leetcode <SiLeetcode />{" "}
-          </a>
-        </button>
+      <div className="dsastats-details categories">
+        {/* <button className="dsa-button category"> */}
+        <a
+          href="https://leetcode.com/mitulgarg/"
+          target="_blank"
+          rel="noreferrer"
+          className="dsa-button category"
+        >
+          Leetcode <SiLeetcode />{" "}
+        </a>
+        <a
+          href="https://auth.geeksforgeeks.org/user/mitulgarg/practice/"
+          target="_blank"
+          rel="noreferrer"
+          className="dsa-button category"
+        >
+          GFG Practice <SiGeeksforgeeks style={{ fontSize: "23px" }} />
+        </a>
+        {/* </button> */}
+        {/* <button className="dsa-button category"> */}
+        {/* </button> */}
         {/* <button className="dsa-button skill">
           <a href="https://www.codechef.com/users/mitulgarg" target="_blank"
         rel="noreferrer">
