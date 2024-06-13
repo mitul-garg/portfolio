@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // import pages
 import { Home } from "./pages/Home";
@@ -22,35 +22,17 @@ const App = () => {
     <Router>
       <Navbar />
       <Sidebar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        {/* <Route path="/opensource">
-          <OpenSource />
-        </Route> */}
-        <Route path="/dsastats">
-          <DSAStats />
-        </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/pullrequests">
-          <AllPRs />
-        </Route>
-        <Route path="/issues">
-          <AllIssues />
-        </Route>
-        <Route path="*">
-          <Error />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route exact path="/" Component={Home} />
+        <Route path="/about" Component={About} />
+        {/* <Route path="/opensource" Component={<OpenSource />} /> */}
+        <Route path="/dsastats" Component={DSAStats} />
+        <Route path="/projects" Component={Projects} />
+        <Route path="/contact" Component={Contact} />
+        <Route path="/pullrequests" Component={AllPRs} />
+        <Route path="/issues" Component={AllIssues} />
+        <Route path="*" Component={Error} />
+      </Routes>
       <Footer />
     </Router>
   );
