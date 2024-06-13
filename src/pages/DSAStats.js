@@ -1,9 +1,12 @@
 import React from "react";
 
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { Doughnut } from "react-chartjs-2";
 
 import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 import { FaExternalLinkAlt, FaStar } from "react-icons/fa";
+
+ChartJS.register(ArcElement, Tooltip, Legend);
 
 const problemsData = {
   labels: ["GFG Practice", /*"Codechef", "Codeforces" ,*/ "Leetcode"],
