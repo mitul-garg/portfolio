@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useGlobalContext } from "../context";
-import { links } from "../data/links";
+import { useGlobalContext } from "../../context";
+import { links } from "../../data/links";
 import { BiBarChart } from "react-icons/bi";
+import "./styles.css";
 
 // dark mode
 import { BiMoon, BiSun } from "react-icons/bi";

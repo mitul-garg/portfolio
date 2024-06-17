@@ -1,6 +1,6 @@
 import React from "react";
 
-let issuesJSON = require("../data/opensource/organizations.json");
+let issuesJSON = require("../../data/opensource/organizations.json");
 let orgs = issuesJSON.data.user.repositoriesContributedTo.nodes;
 
 export const OSOrganizations = () => {

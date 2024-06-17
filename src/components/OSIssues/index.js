@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-let issuesJSON = require("../data/opensource/issues.json");
+let issuesJSON = require("../../data/opensource/issues.json");
 let issues = issuesJSON.data.user.issues.nodes;
 let newIssues = issues.slice(0, 10);
 

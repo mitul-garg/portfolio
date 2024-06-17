@@ -1,0 +1,144 @@
+.sidebar-right {
+  display: none;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .sidebar-right {
+    display: block;
+    font-size: 2.7rem;
+    transform: rotate(270deg);
+    color: #2caeba;
+    cursor: pointer;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transform: translate(100%);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .show-sidebar {
+    transform: translate(0);
+  }
+
+  .sidebar-header {
+    align-self: flex-end;
+    margin: 1rem 1rem;
+    font-size: 1.7rem;
+    color: #2caeba;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    place-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .sidebar-link {
+    color: #617d98;
+  }
+
+  .show-sidebar .sidebar-links li {
+    animation: slideRight 0.5s ease-in-out 0.3s forwards;
+    visibility: hidden;
+  }
+
+  .show-sidebar .sidebar-links li:nth-of-type(1) {
+    animation-delay: 0.25s;
+  }
+
+  .show-sidebar .sidebar-links li:nth-of-type(2) {
+    animation-delay: 0.5s;
+  }
+
+  .show-sidebar .sidebar-links li:nth-of-type(3) {
+    animation-delay: 0.75s;
+  }
+
+  .show-sidebar .sidebar-links li:nth-of-type(4) {
+    animation-delay: 1s;
+  }
+
+  .show-sidebar .sidebar-links li:nth-of-type(5) {
+    animation-delay: 1.25s;
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  .sidebar-social-links {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 1rem;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+  }
+
+  .social-link {
+    color: #102a42;
+  }
+
+  .show-sidebar .sidebar-social-links li {
+    animation: slideUp 0.5s ease-in-out 0.3s forwards;
+    visibility: hidden;
+  }
+
+  .show-sidebar .sidebar-social-links li:nth-of-type(1) {
+    animation-delay: 0.25s;
+  }
+
+  .show-sidebar .sidebar-social-links li:nth-of-type(2) {
+    animation-delay: 0.5s;
+  }
+
+  .show-sidebar .sidebar-social-links li:nth-of-type(3) {
+    animation-delay: 0.75s;
+  }
+
+  .show-sidebar .sidebar-social-links li:nth-of-type(4) {
+    animation-delay: 1s;
+  }
+
+  .show-sidebar .sidebar-social-links li:nth-of-type(5) {
+    animation-delay: 1.25s;
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

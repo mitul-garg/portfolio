@@ -1,6 +1,6 @@
 import React from "react";
 
-let issuesJSON = require("../data/opensource/issues.json");
+let issuesJSON = require("../../data/opensource/issues.json");
 let issues = issuesJSON.data.user.issues.nodes;
 
 export const AllIssues = () => {

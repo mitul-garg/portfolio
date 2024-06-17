@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-let prJSON = require("../data/opensource/pullRequests.json");
+let prJSON = require("../../data/opensource/pullRequests.json");
 let prs = prJSON.data.user.pullRequests.nodes;
 let newPRs = prs.slice(0, 10);
 

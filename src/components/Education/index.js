@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { education } from "../data/education";
+import { education } from "../../data/education";
 
 export const Education = () => {
   const [idx, setIdx] = useState(education[0].id);

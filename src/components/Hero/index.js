@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { socialLinks } from "../data/socialLinks";
-import heroImg from "../assets/images/hero.svg";
-import { ResumeButton } from "../components/CVButton";
+import { socialLinks } from "../../data/socialLinks";
+import heroImg from "../../assets/images/hero.svg";
+import { ResumeButton } from "../CVButton";
 
 export const Hero = () => {
   return (

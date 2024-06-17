@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useGlobalContext } from "../context";
+import { useGlobalContext } from "../../context";
 import { ImCross } from "react-icons/im";
-import { links } from "../data/links";
-import { socialLinks } from "../data/socialLinks";
+import { links } from "../../data/links";
+import { socialLinks } from "../../data/socialLinks";
+import "./styles.css";
 
 export const Sidebar = () => {
   const { showSidebar, closeSidebar } = useGlobalContext();

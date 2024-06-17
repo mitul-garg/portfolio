@@ -1,6 +1,6 @@
 import React from "react";
 
-let prJSON = require("../data/opensource/pullRequests.json");
+let prJSON = require("../../data/opensource/pullRequests.json");
 let prs = prJSON.data.user.pullRequests.nodes;
 
 export const AllPRs = () => {

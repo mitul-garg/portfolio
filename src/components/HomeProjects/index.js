@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "../data/projects";
+import { projects } from "../../data/projects";
 import { SiGithub } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";

@@ -1,7 +1,7 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
 
-let issuesJSON = require("../data/opensource/issues.json");
+let issuesJSON = require("../../data/opensource/issues.json");
 let issuesLength = issuesJSON.data.user.issues.totalCount;
 let issues = issuesJSON.data.user.issues.nodes;
 let closed = 0,
@@ -11,7 +11,7 @@ for (let i = 0; i < issuesLength; i++) {
   else open++;
 }
 
-let prJSON = require("../data/opensource/pullRequests.json");
+let prJSON = require("../../data/opensource/pullRequests.json");
 let prLength = prJSON.data.user.pullRequests.totalCount;
 let prs = prJSON.data.user.pullRequests.nodes;
 let mergedPR = 0,
