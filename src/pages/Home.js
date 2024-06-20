@@ -8,9 +8,9 @@ export const Home = () => {
   return (
     <div className="home">
       <Hero />
-      {/* <Experience />
+      <Experience />
       <HomeProjects />
-      <Blogs /> */}
+      <Blogs />
     </div>
   );
 };
