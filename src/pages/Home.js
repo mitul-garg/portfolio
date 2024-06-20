@@ -9,8 +9,8 @@ export const Home = () => {
     <div className="home">
       <Hero />
       <Experience />
-      <HomeProjects />
-      <Blogs />
+      {/* <HomeProjects />
+      <Blogs /> */}
     </div>
   );
 };

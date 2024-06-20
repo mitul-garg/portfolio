@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaAngleDoubleRight } from "react-icons/fa";
 import { jobs } from "../../data/experience";
+import "./styles.css";
 
 export const Experience = () => {
   const [idx, setIdx] = useState(jobs[0].id);
@@ -31,12 +32,18 @@ export const Experience = () => {
         </div>
         <div className="job-info">
           {jobs.map((job) => {
-            const { id, title, company, duties, dates } = job;
+            const { id, title, skills, duties, dates } = job;
             if (id === idx) {
               return (
                 <article key={id} className="job-details">
                   <h3>{title}</h3>
-                  <div className="job-company">{company}</div>
+                  <div className="job-skills">
+                    {skills.map((skill, index) => (
+                      <div key={index} className="job-skill">
+                        {skill}
+                      </div>
+                    ))}
+                  </div>
                   <div className="job-dates">{dates}</div>
                   <ul className="job-duties">
                     {duties.map((duty, index) => {

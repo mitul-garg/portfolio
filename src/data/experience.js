@@ -7,9 +7,10 @@ export const jobs = [
     title: "Software Engineer",
     company: "Optum (UHG)",
     dates: "march 2024 - present",
+    skills: ["Terraform", "Azure"],
     duties: [
-      // "  Developed Full Stack Websites with React & AWS Services",
-      // "  Deployed them using AWS Amplify, Amazon Cognito, Lambda, Dynamo DB",
+      "  Refactored the code using Terraform modules to reduce code redundancy",
+      "  Gained knowledge related to Devops & Cloud Computing",
       // "  Reported bugs and gave feedback and suggestions on previously existing content",
     ],
   },
@@ -18,6 +19,7 @@ export const jobs = [
     title: "SDE Intern - Platform",
     company: "Quantiphi Inc",
     dates: "january 2023 - november 2023",
+    skills: ["AWS", "GCP", "React JS"],
     duties: [
       "  Developed Full Stack Websites with React & AWS Services",
       "  Deployed them using AWS Amplify, Amazon Cognito, Lambda, Dynamo DB",
@@ -29,8 +31,9 @@ export const jobs = [
     title: "Subject Matter Expert (CSE)",
     company: "wikasta",
     dates: "may 2022 - june 2022",
+    skills: ["DSA", "Core CS", "Machine Learning"],
     duties: [
-      "  Created Software Development and Programming related content",
+      // "  Created Software Development and Programming related content",
       "  Contributed more than 200 Questions on Data Structures, Algorithms, Machine Learning, HTML, CSS",
       "  Reported bugs and gave feedback and suggestions on previously existing content",
     ],
@@ -40,10 +43,11 @@ export const jobs = [
     title: "Software Developer & Sponsorship Coordinator",
     company: "kalaamanch",
     dates: "march 2020 - september 2020",
+    skills: ["HTML", "CSS", "Javascript"],
     duties: [
       "  Created two versions of the website for the College Club from scratch in HTML, CSS and JS",
       "  Websites are made mobile-friendly in order to enhance the target audience’s experience",
-      "  Dealt with multiple sponsors and ensured smooth conduct of all the Competitions",
+      // "  Dealt with multiple sponsors and ensured smooth conduct of all the Competitions",
     ],
   },
 ];
