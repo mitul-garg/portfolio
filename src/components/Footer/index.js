@@ -1,6 +1,7 @@
 import React from "react";
 import { socialLinks } from "../../data/socialLinks";
 import { ImHeart } from "react-icons/im";
+import "./styles.css";
 
 export const Footer = () => {
   return (

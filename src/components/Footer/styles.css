@@ -1,0 +1,32 @@
+.footer {
+  height: 9rem;
+  background-color: #222222;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.footer-social-link {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.footer-social-link:hover {
+  color: #2caeba;
+}
+.footer > h4 {
+  text-transform: capitalize;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.heart {
+  color: red;
+}
