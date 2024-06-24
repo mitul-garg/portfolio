@@ -55,6 +55,12 @@
     color: #617d98;
   }
 
+  .active-sidebar-link {
+    text-decoration: underline 2px #617d98;
+    text-underline-offset: 10px;
+    transition: all 0.25s linear;
+  }
+
   .show-sidebar .sidebar-links li {
     animation: slideRight 0.5s ease-in-out 0.3s forwards;
     visibility: hidden;

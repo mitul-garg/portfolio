@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useGlobalContext } from "../../context";
 import { ImCross } from "react-icons/im";
 import { links } from "../../data/links";
@@ -8,6 +8,7 @@ import "./styles.css";
 
 export const Sidebar = () => {
   const { showSidebar, closeSidebar } = useGlobalContext();
+  const currentRoute = useLocation().pathname;
 
   if (showSidebar) {
     document.body.style.overflow = "hidden";
@@ -28,7 +29,15 @@ export const Sidebar = () => {
           const { id, text, url } = link;
           return (
             <li key={id}>
-              <Link to={url} className="sidebar-link" onClick={closeSidebar}>
+              <Link
+                to={url}
+                className={
+                  url === currentRoute
+                    ? "sidebar-link active-sidebar-link"
+                    : "sidebar-link"
+                }
+                onClick={closeSidebar}
+              >
                 {text}
               </Link>
             </li>

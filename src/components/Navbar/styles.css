@@ -10,20 +10,27 @@
 
 .nav-left {
   display: flex;
-  place-items: center;
-  gap: 1rem;
+  gap: 0.5rem;
   font-size: 2rem;
   letter-spacing: 2px;
-  color: #2caeba;
   font-weight: bolder;
 }
 
-.nav-left span span {
+.nav-left div .nav-logo {
+  color: #2caeba;
+}
+
+.theme-icon {
   color: #102a42;
+  font-size: 1.6rem;
+}
+
+.theme-icon:hover {
+  cursor: pointer;
 }
 
 .nav-right {
-  width: 60%;
+  width: 70%;
 }
 
 .nav-links {
@@ -33,7 +40,7 @@
 
 .nav-link {
   color: #102a42;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 800;
   letter-spacing: 2px;
   transition: all 0.25s linear;
@@ -43,6 +50,12 @@
   color: #2caeba;
   text-decoration: underline 2px #2caeba;
   text-underline-offset: 10px;
+}
+
+.active-nav-link {
+  text-decoration: underline 2px #102a42;
+  text-underline-offset: 10px;
+  transition: all 0.25s linear;
 }
 
 @media (max-width: 900px) {

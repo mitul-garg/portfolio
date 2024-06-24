@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useGlobalContext } from "../../context";
 import { links } from "../../data/links";
 import { BiBarChart } from "react-icons/bi";
@@ -22,6 +22,7 @@ if (darkMode) {
 export const Navbar = () => {
   const { openSidebar } = useGlobalContext();
   const [isDarkMode, setIsDarkMode] = useState(darkMode);
+  const currentRoute = useLocation().pathname;
 
   const darkModeHandler = () => {
     parent.classList.toggle("dark");
@@ -34,13 +35,17 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="nav-left">
-        <span>
-          <span>M</span>G
-        </span>
-        <span onClick={darkModeHandler}>
-          {isDarkMode && <BiSun className="theme-icon" />}
-          {!isDarkMode && <BiMoon className="theme-icon" />}
-        </span>
+        <div>
+          <span onClick={darkModeHandler}>
+            {isDarkMode && <BiSun className="theme-icon" />}
+            {!isDarkMode && <BiMoon className="theme-icon" />}
+          </span>
+        </div>
+        <div>
+          <Link to="/" className="nav-logo">
+            MG
+          </Link>
+        </div>
       </div>
       <div className="nav-right">
         <ul className="nav-links">
@@ -48,7 +53,14 @@ export const Navbar = () => {
             const { id, text, url } = link;
             return (
               <li key={id}>
-                <Link to={url} className="nav-link">
+                <Link
+                  to={url}
+                  className={
+                    url === currentRoute
+                      ? "nav-link active-nav-link"
+                      : "nav-link"
+                  }
+                >
                   {text}
                 </Link>
               </li>
