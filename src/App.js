@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // import pages
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
-import { Projects } from "./pages/Projects";
+import { ProjectsPage } from "./pages/ProjectsPage";
 import { Contact } from "./pages/Contact";
 // import { OpenSource } from "./pages/OpenSource";
 import { DSAStats } from "./pages/DSAStats";
@@ -27,7 +27,7 @@ const App = () => {
         <Route path="/about" Component={About} />
         {/* <Route path="/opensource" Component={<OpenSource />} /> */}
         <Route path="/dsastats" Component={DSAStats} />
-        <Route path="/projects" Component={Projects} />
+        <Route path="/projects" Component={ProjectsPage} />
         <Route path="/contact" Component={Contact} />
         <Route path="/pullrequests" Component={AllPRs} />
         <Route path="/issues" Component={AllIssues} />

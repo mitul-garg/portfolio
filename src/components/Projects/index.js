@@ -1,20 +1,22 @@
 import React from "react";
-import { projects } from "../../data/projects";
 import { SiGithub } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import "./styles.css";
 
-export const HomeProjects = () => {
-  const newProjects = projects.slice(0, 3);
+export const Projects = ({ projects }) => {
   return (
-    <section className="home-projects">
-      <h3>Featured Projects</h3>
+    <section className="projects">
+      <h1>Featured Projects</h1>
       <div className="projects-grid">
-        {newProjects.map((project) => {
+        {projects.map((project, index) => {
           const { id, title, img, details, technologies, sourceCode, link } =
             project;
           return (
-            <article key={id} className="project">
+            <article
+              key={id}
+              className={index % 2 === 0 ? "project" : "project reverse-flex"}
+            >
               <div className="img-holder">
                 <img src={img} alt="" className="project-img" />
               </div>

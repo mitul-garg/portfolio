@@ -34,7 +34,7 @@
   text-align: center;
   width: fit-content;
   text-transform: capitalize;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 550;
   letter-spacing: 2px;
   padding: 0.75rem 0.75rem;
@@ -61,7 +61,7 @@
 }
 .job-details h3 {
   color: #102a42;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   letter-spacing: 2px;
   font-family: "Roboto", sans-serif;
 }
@@ -127,5 +127,8 @@
   .job-info {
     width: 100%;
     place-self: center;
+  }
+  .btn-container {
+    width: 100vw;
   }
 }

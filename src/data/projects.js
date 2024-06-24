@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     id: uuidv4(),
-    title: "ToraLabs - Freelance Project ",
+    title: "ToraLabs - Freelance",
     img: toralabs,
     details:
       "Revamped the UI of the landing page and created a product page (Device Info) from scratch, Created UI elements like Sliders(using Swiper), Animated Cards, Navbar using plain CSS, Used Email JS to send the contact form responses directly to the client’s email",

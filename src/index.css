@@ -2,8 +2,10 @@
 
 /* font-family: "Roboto", sans-serif; */
 /* font-family: "Open Sans", sans-serif; */
+/* font-family: "Josefin Sans", sans-serif; */
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -74,3 +76,67 @@ body {
   font-size: 1.5rem;
 }
 /* Error Page */
+
+/* Contact Page */
+.contact {
+  display: grid;
+  place-items: center;
+  padding: 5rem 0;
+}
+.contact-form {
+  background: white;
+  border-radius: 0.3rem;
+  text-align: center;
+  width: 90vw;
+  max-width: 35rem;
+  padding: 1.25rem 0.75rem;
+}
+.contact-form h3 {
+  color: #617d98;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+.form-group {
+  padding-top: 1rem 1.5rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  background-color: #f1f5f8;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.form-control::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(209, 61%, 16%);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  background-color: #2caeba;
+  border: none;
+  color: #bff8fd;
+  cursor: pointer;
+  padding: 0.75rem 0.75rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.submit-btn:hover {
+  color: hsl(184, 91%, 17%);
+  background-color: hsl(184, 80%, 74%);
+}
+/* Contact Page */
