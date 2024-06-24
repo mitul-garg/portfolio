@@ -1,13 +1,17 @@
 import React from "react";
 import { SiGithub } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./styles.css";
 
 export const Projects = ({ projects }) => {
+  const currentRoute = useLocation().pathname;
+
   return (
     <section className="projects">
-      <h1>Featured Projects</h1>
+      <h1 style={{ display: currentRoute === "/" ? "inline" : "none" }}>
+        {currentRoute === "/" && "Featured Projects"}
+      </h1>
       <div className="projects-grid">
         {projects.map((project, index) => {
           const { id, title, img, details, technologies, sourceCode, link } =
@@ -45,13 +49,15 @@ export const Projects = ({ projects }) => {
           );
         })}
       </div>
-      <Link
-        to="projects"
-        className="hero-btn"
-        onClick={() => window.scrollTo(0, 0)}
-      >
-        All Projects
-      </Link>
+      {currentRoute === "/" && (
+        <Link
+          to="projects"
+          className="hero-btn"
+          onClick={() => window.scrollTo(0, 0)}
+        >
+          View All Projects
+        </Link>
+      )}
     </section>
   );
 };
