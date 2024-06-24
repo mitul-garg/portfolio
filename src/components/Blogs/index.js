@@ -1,5 +1,6 @@
 import React from "react";
 import { blogs } from "../../data/blogs";
+import "./styles.css";
 
 export const Blogs = () => {
   return (
@@ -8,7 +9,7 @@ export const Blogs = () => {
       <div className="blog-cards">
         {blogs.map((blog) => {
           let { id, title, intro, link } = blog;
-          intro = intro.substring(0, 500) + "...";
+          intro = intro.substring(0, 700) + "...";
           return (
             <article key={id} className="blog-card">
               <h3>{title}</h3>

@@ -1,11 +1,12 @@
 import React from "react";
 import heroImgAbout from "../assets/images/hero.svg";
-import { category } from "../data/skills";
 import { Education } from "../components/Education";
+import { Blogs } from "../components/Blogs";
 
 export const About = () => {
   return (
     <div className="about">
+      <Blogs />
       <div className="about-me">
         <img src={heroImgAbout} alt="hero" className="about-hero" />
         <article className="about-info">
@@ -19,44 +20,6 @@ export const About = () => {
             only provides me with an avenue for relaxation but also nurtures my
             analytical thinking. With each passing day, I am excited to embark
             on this journey of continuous learning and growth.
-          </div>
-          <div className="categories">
-            {category.map(({ id, name, skills }) => (
-              <div key={id} className="category">
-                <div>{name}</div>
-                <div className="skills">
-                  {skills.map(({ id, name, icon }) => (
-                    <button key={id} className="skill">
-                      {name}
-                      <span
-                        style={{
-                          fontSize: "25px",
-                          marginLeft: "4px",
-                        }}
-                      >
-                        {icon}
-                      </span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            ))}
-            {/* {skills.map((skill) => {
-              const { id, name, icon } = skill;
-              return (
-                <button key={id} className="skill">
-                  {name}
-                  <span
-                    style={{
-                      fontSize: "25px",
-                      marginLeft: "4px",
-                    }}
-                  >
-                    {icon}
-                  </span>
-                </button>
-              );
-            })} */}
           </div>
         </article>
       </div>
