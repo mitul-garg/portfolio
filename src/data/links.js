@@ -17,7 +17,7 @@ export const links = [
   {
     id: 3,
     text: "Achievements",
-    url: "/dsastats",
+    url: "/achievements",
   },
   {
     id: 4,

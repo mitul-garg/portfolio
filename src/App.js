@@ -7,7 +7,7 @@ import { About } from "./pages/About";
 import { ProjectsPage } from "./pages/ProjectsPage";
 import { Contact } from "./pages/Contact";
 // import { OpenSource } from "./pages/OpenSource";
-import { DSAStats } from "./pages/DSAStats";
+import { Achievements } from "./pages/Achievements";
 import { Error } from "./pages/Error";
 
 // import components
@@ -26,7 +26,7 @@ const App = () => {
         <Route exact path="/" Component={Home} />
         <Route path="/about" Component={About} />
         {/* <Route path="/opensource" Component={<OpenSource />} /> */}
-        <Route path="/dsastats" Component={DSAStats} />
+        <Route path="/achievements" Component={Achievements} />
         <Route path="/projects" Component={ProjectsPage} />
         <Route path="/contact" Component={Contact} />
         <Route path="/pullrequests" Component={AllPRs} />
