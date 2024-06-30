@@ -102,7 +102,7 @@
   color: #222222;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .project {
     flex-direction: column;
     width: 90%;
@@ -110,7 +110,7 @@
 
   .project-img {
     width: 100%;
-    max-width: 400px;
+    max-width: max-content;
   }
 
   .project-info p {

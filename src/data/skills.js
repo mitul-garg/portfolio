@@ -22,6 +22,7 @@ import {
   SiPostgresql,
 } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
+import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { v4 as uuidv4 } from "uuid";
 
 export const category = [
@@ -84,6 +85,16 @@ export const category = [
         id: uuidv4(),
         name: "javascript",
         icon: <DiJavascript1 />,
+      },
+      {
+        id: uuidv4(),
+        name: "next js",
+        icon: <RiNextjsFill />,
+      },
+      {
+        id: uuidv4(),
+        name: "tailwind css",
+        icon: <RiTailwindCssFill />,
       },
     ],
   },

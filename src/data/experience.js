@@ -28,7 +28,7 @@ export const jobs = [
   },
   {
     id: uuidv4(),
-    title: "Subject Matter Expert (CSE)",
+    title: "Subject Matter Expert",
     company: "wikasta",
     dates: "may 2022 - june 2022",
     skills: ["DSA", "Core CS", "Machine Learning"],
@@ -40,7 +40,7 @@ export const jobs = [
   },
   {
     id: uuidv4(),
-    title: "Software Developer & Sponsorship Coordinator",
+    title: "Software Developer",
     company: "kalaamanch",
     dates: "march 2020 - september 2020",
     skills: ["HTML", "CSS", "Javascript"],
