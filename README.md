@@ -25,7 +25,9 @@ The Portfolio comprises of various sections including Opensource Contributions d
 
 ## Follow these steps, to make this portfolio your own,
 
-- Download the source code
+- [Contact Me 😃](https://mitulgarg.live/contact)
+
+<!-- - Download the source code
 
 ```
 git clone https://github.com/mitul-garg/portfolio
@@ -52,4 +54,4 @@ npm run build
 ```
 
 - Now, you can deploy the **_build_** folder on [Netlify](https://www.netlify.com/)
-- **The Contact Form works only on websites hosted on Netlify**
+- **The Contact Form works only on websites hosted on Netlify** -->

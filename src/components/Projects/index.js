@@ -2,6 +2,7 @@ import React from "react";
 import { SiGithub } from "react-icons/si";
 import { FiExternalLink } from "react-icons/fi";
 import { Link, useLocation } from "react-router-dom";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./styles.css";
 
 export const Projects = ({ projects }) => {
@@ -14,15 +15,30 @@ export const Projects = ({ projects }) => {
       </h1>
       <div className="projects-grid">
         {projects.map((project, index) => {
-          const { id, title, img, details, technologies, sourceCode, link } =
-            project;
+          const {
+            id,
+            title,
+            img,
+            placeholderImg,
+            details,
+            technologies,
+            sourceCode,
+            link,
+          } = project;
           return (
             <article
               key={id}
               className={index % 2 === 0 ? "project" : "project reverse-flex"}
             >
               <div className="img-holder">
-                <img src={img} alt="" className="project-img" />
+                {/* <img src={img} alt="" className="project-img" /> */}
+                <LazyLoadImage
+                  src={img}
+                  placeholderSrc={placeholderImg}
+                  effect="blur"
+                  alt="project-img"
+                  className="project-img"
+                />
               </div>
               <article className="project-info">
                 <h2>{title}</h2>
