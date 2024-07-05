@@ -6,6 +6,8 @@ A Single Page React App built with `react-router-dom` for navigation on other pa
 
 [Visit Now!](https://mitulgarg.live)
 
+> This is an older version of the portfolio. The new portfolio is under development with optimized features & updated UI
+
 ## Overview
 
 The Portfolio comprises of various sections including Opensource Contributions displayed beautifully using [react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2), Projects, Blogs, Contact Form, etc
@@ -23,9 +25,9 @@ The Portfolio comprises of various sections including Opensource Contributions d
 - Navigation using Navbar for Desktop screens and Sidebar for Mobile Screens
 - Error Page if someone drops in on wrong address
 
-## Follow these steps, to make this portfolio your own,
+## Follow these steps, to make this portfolio your own
 
-- [Contact Me 😃](https://mitulgarg.live/contact)
+- [Contact Me](https://mitulgarg.live/contact) 😃
 
 <!-- - Download the source code
 
