@@ -20,12 +20,40 @@ import {
   SiMicrosoftazure,
   SiTerraform,
   SiPostgresql,
+  SiPython,
+  SiCsharp,
 } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { v4 as uuidv4 } from "uuid";
 
 export const category = [
+  {
+    id: uuidv4(),
+    name: "featured",
+    skills: [
+      {
+        id: uuidv4(),
+        name: "java",
+        icon: <DiJava />,
+      },
+      {
+        id: uuidv4(),
+        name: "react js",
+        icon: <DiReact />,
+      },
+      {
+        id: uuidv4(),
+        name: "azure",
+        icon: <SiMicrosoftazure />,
+      },
+      {
+        id: uuidv4(),
+        name: "terraform",
+        icon: <SiTerraform />,
+      },
+    ],
+  },
   {
     id: uuidv4(),
     name: "languages",
@@ -39,6 +67,16 @@ export const category = [
         id: uuidv4(),
         name: "c++",
         icon: <SiCplusplus />,
+      },
+      {
+        id: uuidv4(),
+        name: "python",
+        icon: <SiPython />,
+      },
+      {
+        id: uuidv4(),
+        name: "c#",
+        icon: <SiCsharp />,
       },
       {
         id: uuidv4(),

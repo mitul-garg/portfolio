@@ -1,0 +1,44 @@
+.skills-section {
+  background-color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  gap: 2rem;
+  text-transform: capitalize;
+}
+
+.skills-section h1 {
+  color: #102a42;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 2.4px;
+  text-decoration: underline #2caeba 0.3rem;
+  text-underline-offset: 0.7rem;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  font-size: 1.2rem;
+}
+
+.skills {
+  display: none;
+}
+
+.category:hover {
+  cursor: pointer;
+  .skills {
+    display: block;
+  }
+}
+
+.featured-skills {
+  display: block;
+}
