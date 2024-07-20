@@ -6,6 +6,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -109,13 +110,13 @@ body {
   margin-bottom: 1.25rem;
   background-color: #f1f5f8;
   border-radius: 0.3rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: 1.5px;
 }
 .form-control::placeholder {
   font-family: "Open Sans", sans-serif;
   color: hsl(209, 61%, 16%);
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 1.5px;
 }
 .submit-btn {

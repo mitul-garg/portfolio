@@ -4,7 +4,6 @@ import {
   DiNodejsSmall,
   DiMongodb,
   DiHtml5,
-  DiCss3,
   DiJavascript1,
   DiVisualstudio,
   DiGit,
@@ -20,12 +19,14 @@ import {
   SiMicrosoftazure,
   SiTerraform,
   SiPostgresql,
+  SiPython,
+  SiCsharp,
 } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
-import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssFill, RiCss3Fill } from "react-icons/ri";
 import { v4 as uuidv4 } from "uuid";
 
-export const category = [
+const categories = [
   {
     id: uuidv4(),
     name: "languages",
@@ -39,6 +40,16 @@ export const category = [
         id: uuidv4(),
         name: "c++",
         icon: <SiCplusplus />,
+      },
+      {
+        id: uuidv4(),
+        name: "python",
+        icon: <SiPython />,
+      },
+      {
+        id: uuidv4(),
+        name: "c#",
+        icon: <SiCsharp />,
       },
       {
         id: uuidv4(),
@@ -79,7 +90,7 @@ export const category = [
       {
         id: uuidv4(),
         name: "css",
-        icon: <DiCss3 />,
+        icon: <RiCss3Fill />,
       },
       {
         id: uuidv4(),
@@ -167,6 +178,8 @@ export const category = [
     ],
   },
 ];
+
+export { categories };
 
 // export const skills = [
 //   {
