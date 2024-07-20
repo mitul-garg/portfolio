@@ -4,7 +4,8 @@ import {
   // SiCodeforces,
   SiGithub,
   SiLeetcode,
-  SiCodechef,
+  // SiCodechef,
+  SiMedium,
   SiGeeksforgeeks,
 } from "react-icons/si";
 
@@ -31,7 +32,7 @@ export const socialLinks = [
   },
   {
     id: 5,
-    icon: <SiCodechef className="social-icon" />,
-    url: "https://www.codechef.com/users/mitulgarg",
+    icon: <SiMedium className="social-icon" />,
+    url: "https://mitulgarg.medium.com/",
   },
 ];

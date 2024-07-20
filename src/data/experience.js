@@ -7,8 +7,9 @@ export const jobs = [
     title: "Software Engineer",
     company: "Optum (UHG)",
     dates: "march 2024 - present",
-    skills: ["Terraform", "Azure"],
+    skills: ["Terraform", "Azure", "C#"],
     duties: [
+      "  Increased Code Coverage of components by more than 20%",
       "  Refactored the code using Terraform modules to reduce code redundancy",
       "  Gained knowledge related to Devops & Cloud Computing",
       // "  Reported bugs and gave feedback and suggestions on previously existing content",

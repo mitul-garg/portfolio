@@ -17,28 +17,97 @@
   letter-spacing: 2.4px;
   text-decoration: underline #2caeba 0.3rem;
   text-underline-offset: 0.7rem;
+  position: relative;
 }
 
 .categories {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  place-items: center;
+  justify-content: center;
 }
 
 .category {
-  font-size: 1.2rem;
-}
-
-.skills {
-  display: none;
-}
-
-.category:hover {
+  display: flex;
+  place-items: center;
+  padding: 10px 20px;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  color: #000;
+  background: #f1f5f8;
   cursor: pointer;
-  .skills {
-    display: block;
+  max-width: 300px;
+  position: relative;
+}
+
+.category {
+  svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+  rect {
+    fill: none;
+    stroke: #000;
+    stroke-width: 3;
+    stroke-dasharray: 422, 0;
+    transition: all 0.5s linear;
   }
 }
 
-.featured-skills {
-  display: block;
+.category:hover {
+  rect {
+    stroke-width: 6;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+}
+
+.filter-icon {
+  font-size: 1.3rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  place-items: center;
+  width: 80%;
+  gap: 1.5rem;
+}
+
+.skill {
+  display: flex;
+  place-items: center;
+  color: #617d98;
+  background-color: #dae2ec;
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-left: 0.5rem;
+  font-size: 3rem;
+  border-radius: 0.3rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.skill:hover {
+  background-color: #617d98;
+  color: #dae2ec;
+}
+
+@media (max-width: 900px) {
+  .skills {
+    width: 100%;
+  }
 }
