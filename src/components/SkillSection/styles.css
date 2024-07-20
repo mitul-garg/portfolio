@@ -33,42 +33,20 @@
   display: flex;
   place-items: center;
   padding: 10px 20px;
-  font-family: "Great Vibes", cursive;
-  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 1.1px;
-  color: #000;
+  color: #222222;
   background: #f1f5f8;
   cursor: pointer;
   max-width: 300px;
-  position: relative;
-}
-
-.category {
-  svg {
-    height: 45px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-
-  rect {
-    fill: none;
-    stroke: #000;
-    stroke-width: 3;
-    stroke-dasharray: 422, 0;
-    transition: all 0.5s linear;
-  }
+  transition: all 0.5s ease;
 }
 
 .category:hover {
-  rect {
-    stroke-width: 6;
-    stroke-dasharray: 15, 310;
-    stroke-dashoffset: 48;
-    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-  }
+  background: #222222;
+  color: #f1f5f8;
 }
 
 .filter-icon {
