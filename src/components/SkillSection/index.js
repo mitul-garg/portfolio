@@ -50,7 +50,8 @@ const SkillSection = () => {
       <div className="skills">
         {displaySkills.map(({ id, name, icon }) => (
           <div key={id} className="skill">
-            {icon}
+            <div className="skill-icon">{icon}</div>
+            <div className="skill-name">{name}</div>
           </div>
         ))}
       </div>

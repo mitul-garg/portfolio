@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./styles.css";
+
 export const Contact = () => {
   // const handleSubmit = (e) => {
   //   e.preventDefault();

@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #fbfefe, #72f3ff);
+}
+
+.about-me {
+  display: flex;
+  place-items: center;
+  justify-content: space-around;
+}
+
+.about-info {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  line-height: 40px;
+  text-align: justify;
+  width: 50%;
+}
+
+.about-img {
+  width: 37%;
+}
