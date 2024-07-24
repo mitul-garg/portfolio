@@ -19,6 +19,7 @@
 }
 .footer-social-link:hover {
   color: #2caeba;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 .footer > h4 {
   text-transform: capitalize;

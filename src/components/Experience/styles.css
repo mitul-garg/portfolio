@@ -47,7 +47,7 @@
 }
 .job-btn:hover {
   color: #2caeba;
-  cursor: pointer;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 .job-info {
   width: 60%;

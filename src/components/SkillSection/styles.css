@@ -39,7 +39,7 @@
   letter-spacing: 1.1px;
   color: #222222;
   background: #f1f5f8;
-  cursor: pointer;
+  cursor: url("../../assets/pointer.svg"), auto;
   max-width: 300px;
   transition: all 0.5s ease;
 }
@@ -71,7 +71,7 @@
   letter-spacing: 2px;
   border-radius: 0.3rem;
   transition: all 0.5s ease;
-  cursor: pointer;
+  cursor: url("../../assets/pointer.svg"), auto;
   width: 130px;
   height: 80px;
 }

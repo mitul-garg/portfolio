@@ -51,7 +51,7 @@
   background-color: #2caeba;
   border: none;
   color: #bff8fd;
-  cursor: pointer;
+  cursor: url("../../assets/pointer.svg"), auto;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   margin-top: 1rem;
@@ -84,6 +84,7 @@
 
 .hero-social-link:hover {
   color: #2caeba;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 
 .resume {
@@ -104,6 +105,7 @@
 .hero-btn:hover .resume-link {
   color: hsl(184, 91%, 17%);
   transition: all 0.3s linear;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 
 @media (max-width: 900px) {

@@ -26,7 +26,7 @@
 }
 
 .theme-icon:hover {
-  cursor: pointer;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 
 .nav-right {
@@ -50,6 +50,7 @@
   color: #2caeba;
   text-decoration: underline 2px #2caeba;
   text-underline-offset: 10px;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 
 .active-nav-link {
