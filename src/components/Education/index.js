@@ -1,49 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import { education } from "../../data/education";
 
+import "./styles.css";
+
 export const Education = () => {
-  const [idx, setIdx] = useState(education[0].id);
-
-  const changeIdx = (value) => {
-    setIdx(value);
-  };
-
   return (
-    <section className="experience">
+    <section className="education">
       <h1>Education</h1>
-      <div className="job-section">
-        <div className="btn-container">
-          {education.map((job) => {
-            const { id, degree } = job;
-            return (
-              <button
-                key={id}
-                onClick={() => changeIdx(id)}
-                className={`${
-                  id === idx ? "job-btn active-job-btn" : "job-btn"
-                }`}
-              >
-                {degree}
-              </button>
-            );
-          })}
-        </div>
-        <div className="job-info">
-          {education.map((job) => {
-            const { id, title, institute, grades, dates } = job;
-            if (id === idx) {
-              return (
-                <article key={id} className="job-details">
-                  <h3>{title}</h3>
-                  <div className="job-company">{institute}</div>
-                  <div className="job-dates">{grades}</div>
-                  <div className="job-dates">Passing Year : {dates}</div>
-                </article>
-              );
-            }
-            return null;
-          })}
-        </div>
+      <div className="education-list">
+        {education.map(({ id, title, degree, institute, dates, grades }) => (
+          <section key={id} className="education-details">
+            <h2>{institute}</h2>
+            <h3>
+              {degree} - {title}
+            </h3>
+            <h4>Scored {grades}</h4>
+            <p>Graduation Year : {dates}</p>
+          </section>
+        ))}
       </div>
     </section>
   );
