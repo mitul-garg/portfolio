@@ -5,6 +5,8 @@ import { Doughnut } from "react-chartjs-2";
 
 import { FaExternalLinkAlt, FaStar } from "react-icons/fa";
 
+import "./styles.css";
+
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const problemsData = {

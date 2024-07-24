@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FcHome } from "react-icons/fc";
 
+import "./styles.css";
+
 export const Error = () => {
   return (
     <div className="error">
