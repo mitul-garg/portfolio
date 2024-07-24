@@ -24,6 +24,7 @@ a {
 
 body {
   background-color: #f1f5f8;
+  cursor: url("./assets/cursor.svg"), auto;
 }
 
 .dsa,

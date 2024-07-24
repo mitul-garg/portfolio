@@ -46,6 +46,7 @@
   color: hsl(184, 91%, 17%);
   background-color: hsl(184, 80%, 74%);
   transition: all 0.3s linear;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 
 .achievements {
@@ -70,6 +71,7 @@
 
 .gcp-link:hover {
   color: #2caeba;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 
 .dsa-bullet {

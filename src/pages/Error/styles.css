@@ -14,7 +14,7 @@
   background-color: #2caeba;
   border: none;
   color: #bff8fd;
-  cursor: pointer;
+  cursor: url("../../assets/pointer.svg"), auto;
   padding: 0.75rem 0.75rem;
   font-size: 1rem;
   margin-top: 1rem;
@@ -31,6 +31,7 @@
 .error button:hover {
   color: hsl(184, 91%, 17%);
   background-color: hsl(184, 80%, 74%);
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 .error-home {
   font-size: 1.5rem;
