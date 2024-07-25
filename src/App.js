@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "react-scroll-to-top";
 
 // import pages
 import { Home } from "./pages/Home";
@@ -20,6 +21,7 @@ import { AllIssues } from "./components/AllIssues";
 const App = () => {
   return (
     <Router>
+      <ScrollToTop smooth className="scroll-to-top-arrow" />
       <Navbar />
       <Sidebar />
       <Routes>
