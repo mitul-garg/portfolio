@@ -1,0 +1,70 @@
+.education {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  gap: 4rem;
+}
+
+.education h1 {
+  color: #102a42;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  letter-spacing: 2.4px;
+  text-decoration: underline #2caeba 0.3rem;
+  text-underline-offset: 0.7rem;
+}
+.education-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 2rem;
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+  padding: 20px 40px;
+  /* background: linear-gradient(to top, #35d7e6, #72f3ff); */
+  background: #d0f4f8;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+
+.education-details h2 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.8rem;
+  line-height: 35px;
+}
+
+.education-details h3 {
+  font-size: 1.3rem;
+}
+
+.education-details h4 {
+  font-size: 1.2rem;
+}
+
+.education-details p {
+  font-size: 1.2rem;
+}
+
+.education-details:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+  .education-details {
+    width: 90%;
+  }
+}

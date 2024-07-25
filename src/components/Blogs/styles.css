@@ -6,9 +6,10 @@
   flex-direction: column;
   justify-content: center;
   place-items: center;
-  gap: 2rem;
+  gap: 3rem;
   background-color: white;
 }
+
 .blogs h1 {
   color: #102a42;
   font-family: "Roboto", sans-serif;
@@ -17,60 +18,81 @@
   text-decoration: underline #2caeba 0.3rem;
   text-underline-offset: 0.7rem;
 }
+
 .blog-cards {
-  margin: 1rem 2rem;
   display: flex;
-  justify-content: center;
-  gap: 1.2rem;
-  width: 100%;
+  gap: 2rem;
 }
+
 .blog-card {
   background-color: #f1f5f8;
   display: flex;
   flex-direction: column;
   place-items: center;
   gap: 1rem;
-  padding: 1rem 0.75rem;
+  padding: 4rem 0.75rem;
   border-radius: 0.5rem;
   transition: all 0.3s ease-in-out;
-  max-width: 600px;
+  width: 600px;
+  height: 350px;
+  transition: all 1s ease;
 }
+
 .blog-card h3 {
   color: #102a42;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  letter-spacing: 2px;
-  text-underline-offset: 0.7rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.7rem;
   line-height: 3rem;
+  transition: all 1s ease;
 }
+
 .blog-card p {
   color: #324d67;
   font-family: "Open Sans", sans-serif;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   width: 90%;
+  transition: all 1s ease;
 }
+
 .blog-link {
   color: black;
   font-weight: 600;
   font-size: 0.85rem;
+  transition: all 1s ease;
 }
+
 .blog-card:hover {
   background-color: #2caeba;
   color: hsl(185, 94%, 87%);
 }
+
 .blog-card:hover h3 {
   color: white;
-  text-decoration: underline 0.2rem white;
-  text-underline-offset: 0.7rem;
 }
+
 .blog-card:hover p {
   color: hsl(185, 94%, 87%);
+}
+
+.blog-card:hover .blog-link {
+  color: whitesmoke;
+  font-size: 1rem;
+  cursor: url("../../assets/pointer.svg"), auto;
 }
 
 @media (max-width: 900px) {
   .blog-cards {
     flex-direction: column;
+    place-items: center;
+  }
+
+  .blog-card {
+    height: 450px;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .blog-card h3 {
+    text-align: center;
   }
 }

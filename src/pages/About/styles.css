@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  background: linear-gradient(to right, #fbfefe, #72f3ff);
+  display: flex;
+  place-items: center;
+  justify-content: space-around;
+}
+
+.about-info {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  line-height: 40px;
+  text-align: justify;
+  width: 50%;
+}
+
+.about-img {
+  width: 37%;
+}
+
+@media (max-width: 1100px) {
+  .about-me {
+    background: linear-gradient(to top, #fbfefe, #72f3ff);
+    padding-bottom: 2rem;
+    flex-direction: column;
+  }
+
+  .about-img {
+    width: 85%;
+  }
+
+  .about-info {
+    line-height: 35px;
+    text-align: justify;
+    font-size: larger;
+    width: 90%;
+  }
+}

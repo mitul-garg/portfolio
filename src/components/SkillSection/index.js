@@ -39,24 +39,19 @@ const SkillSection = () => {
           <FaFilter />
         </div>
         <div className="category" onClick={() => filterSkills("all")}>
-          <span>All</span>
-          <svg>
-            <rect x="0" y="0" fill="none" width="100%" height="100%" />
-          </svg>
+          All
         </div>
         {categories.map(({ id, name, skills }) => (
           <div key={id} className="category" onClick={() => filterSkills(id)}>
-            <span>{name}</span>
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>
+            {name}
           </div>
         ))}
       </div>
       <div className="skills">
         {displaySkills.map(({ id, name, icon }) => (
           <div key={id} className="skill">
-            {icon}
+            <div className="skill-icon">{icon}</div>
+            <div className="skill-name">{name}</div>
           </div>
         ))}
       </div>
