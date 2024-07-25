@@ -38,3 +38,8 @@ body {
   background: var(--clr-grey-10);
   min-height: calc(100vh - 9rem);
 }
+
+.scroll-to-top-arrow {
+  cursor: url("./assets/pointer.svg"), auto !important;
+  background-color: hsl(184, 80%, 74%) !important;
+}
