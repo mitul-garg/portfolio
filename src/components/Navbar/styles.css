@@ -25,7 +25,8 @@
   font-size: 1.6rem;
 }
 
-.theme-icon:hover {
+.theme-icon:hover,
+.nav-logo:hover {
   cursor: url("../../assets/pointer.svg"), auto;
 }
 
