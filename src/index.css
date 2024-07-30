@@ -24,6 +24,7 @@ a {
 
 body {
   background-color: #f1f5f8;
+  transition: all 0.3s linear;
   cursor: url("./assets/cursor.svg"), auto;
 }
 

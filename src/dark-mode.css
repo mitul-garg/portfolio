@@ -1,1 +1,225 @@
 /* Dark Mode settings will be global */
+.dark {
+  background-color: #1e2022;
+}
+/* navbar starts */
+.dark .navbar {
+  background-color: #181a1b;
+}
+.dark .nav-left {
+  color: #cecac3;
+}
+.dark .nav-left span span {
+  color: #54cbd6;
+}
+.dark .nav-link {
+  color: #cecac3;
+}
+.dark .nav-link:hover {
+  color: #2caeba;
+  text-decoration: underline 2px #2caeba;
+  text-underline-offset: 10px;
+}
+/* navbar ends */
+
+/* hero starts */
+.dark .hero {
+  background-color: #003f46;
+}
+.dark .underline {
+  background-color: #238b95;
+}
+.dark .hero h1 {
+  color: #cecac3;
+  letter-spacing: 2px;
+}
+.dark .hero h6 {
+  color: #999183;
+}
+.dark .hero-social-link {
+  color: #cecac3;
+}
+.dark .hero-social-link:hover {
+  color: #2caeba;
+}
+/* hero ends */
+
+/* footer starts */
+.dark .footer {
+  background-color: #1a1c1d;
+}
+.dark .footer-social-link:hover {
+  color: #2caeba;
+}
+/* footer ends */
+
+/* about page starts */
+.dark .about-info {
+  color: #cecac3;
+}
+.dark .about-para {
+  color: #9fbad0;
+}
+.dark .skill {
+  background-color: #282b2d;
+  color: #cecac3;
+}
+.dark .skill:hover {
+  background-color: #2caeba;
+  color: white;
+}
+/* about page ends */
+
+/* contact page starts */
+.dark .contact-form {
+  background: #181a1b;
+}
+.dark .contact-form h3 {
+  color: #cecac3;
+}
+.dark .form-control {
+  background-color: #1e2022;
+  color: #cecac3;
+}
+.dark .form-control::placeholder {
+  color: #71706e;
+}
+/* contact page ends */
+
+/* error pages starts */
+.dark .error h3 {
+  color: #cecac3;
+}
+/* error page ends */
+
+/* experience starts */
+.dark .experience {
+  background-color: #181a1b;
+}
+.dark .experience h1 {
+  color: #cecac3;
+}
+.dark .job-details h3 {
+  color: #cecac3;
+}
+.dark .job-company {
+  color: #999183;
+  background-color: #282b2d;
+}
+.dark .job-dates {
+  color: #9fbac5;
+}
+.dark .job-duties {
+  color: #9fbac5;
+}
+.dark .bullet {
+  color: #9fbac5;
+}
+.dark .job-btn {
+  color: white;
+}
+.dark .active-job-btn {
+  color: #2caeba;
+  border-left: solid 2px #2caeba;
+}
+.dark .job-btn:hover {
+  color: #2caeba;
+  border-left: solid 2px #2caeba;
+}
+/* experience ends */
+
+/* blogs start */
+.dark .blogs {
+  background-color: #181a1b;
+}
+.dark .blogs h1 {
+  color: #cecac3;
+}
+.dark .blog-card {
+  background-color: #1e2022;
+}
+.dark .blog-card h3 {
+  color: #cecac3;
+}
+.dark .blog-card p {
+  color: #9fbad0;
+}
+.dark .blog-link {
+  color: white;
+}
+.blog-card:hover {
+  background-color: #2caeba;
+  color: hsl(185, 94%, 87%);
+}
+.blog-card:hover h3 {
+  color: white;
+  text-decoration: underline 0.2rem white;
+  text-underline-offset: 0.7rem;
+}
+.blog-card:hover p {
+  color: hsl(185, 94%, 87%);
+}
+
+/* blogs end */
+
+/* home projects starts */
+.dark .home-projects h3 {
+  color: #cecac3;
+}
+.dark .project-info {
+  background-color: #181a1b;
+}
+.dark .project-info h2 {
+  color: #cecac3;
+}
+.dark .project-info p {
+  color: #9fbad0;
+}
+.dark .tech {
+  color: #999183;
+  background-color: #282b2d;
+}
+.dark .code-link:hover {
+  color: white;
+}
+/* home projects ends */
+
+/* open source starts */
+.dark .opensource-title {
+  color: #cecac3;
+}
+/* charts */
+.dark .chart > h3 {
+  color: #cecac3;
+}
+/* charts */
+/* open source ends */
+
+/* media queries starts */
+@media (max-width: 900px) {
+  .sidebar-right {
+    color: #2caeba;
+  }
+  /* sidebar starts */
+  .dark .sidebar {
+    background-color: #181a1b;
+  }
+  .dark .sidebar-link {
+    color: #999183;
+  }
+  .dark .social-link {
+    color: #cecac3;
+  }
+  /* sidebar ends */
+}
+/* media queries ends */
+
+/* dsa stats */
+.dark .dsastats-details a {
+  color: #cecac3;
+}
+.dark .dsastats-details .dsa-button:hover a {
+  color: white;
+  transition: all 0.3s linear;
+}
+/* dsa stats */

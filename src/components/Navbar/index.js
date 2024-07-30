@@ -13,7 +13,6 @@ let darkMode = false;
 if (localStorage.getItem("theme") === "dark") {
   darkMode = true;
 }
-
 if (darkMode) {
   parent.classList.add("dark");
 }
@@ -31,6 +30,8 @@ export const Navbar = () => {
     else localStorage.removeItem("theme");
     setIsDarkMode((prevMode) => !prevMode);
   };
+
+  console.log(isDarkMode);
 
   return (
     <div className="navbar">
