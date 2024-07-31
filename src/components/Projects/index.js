@@ -41,7 +41,17 @@ export const Projects = ({ projects }) => {
                 />
               </div>
               <article className="project-info">
-                <h2>{title}</h2>
+                <h2>
+                  {title}{" "}
+                  <div className="code-links">
+                    <a href={link} target="_blank" rel="noreferrer">
+                      <FiExternalLink className="code-link" />
+                    </a>
+                    <a href={sourceCode} target="_blank" rel="noreferrer">
+                      <SiGithub className="code-link" />
+                    </a>
+                  </div>
+                </h2>
                 <p>{details}</p>
                 <div className="tech-used">
                   {technologies.map((tech, index) => {
@@ -52,14 +62,14 @@ export const Projects = ({ projects }) => {
                     );
                   })}
                 </div>
-                <div className="code-links">
+                {/* <div className="code-links">
                   <a href={sourceCode} target="_blank" rel="noreferrer">
                     <SiGithub className="code-link" />
                   </a>
                   <a href={link} target="_blank" rel="noreferrer">
                     <FiExternalLink className="code-link" />
                   </a>
-                </div>
+                </div> */}
               </article>
             </article>
           );
