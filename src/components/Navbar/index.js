@@ -44,7 +44,7 @@ export const Navbar = () => {
         </div>
         <div>
           <Link to="/" className="nav-logo">
-            MG
+            Mitul Garg
           </Link>
         </div>
       </div>
