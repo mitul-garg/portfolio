@@ -2,6 +2,7 @@
 .dark {
   background-color: #1e2022;
 }
+
 /* navbar starts */
 .dark .navbar {
   background-color: #181a1b;
@@ -9,18 +10,38 @@
 .dark .nav-left {
   color: #cecac3;
 }
-.dark .nav-left span span {
-  color: #54cbd6;
+.dark .theme-icon {
+  color: #cecac3;
 }
 .dark .nav-link {
   color: #cecac3;
 }
 .dark .nav-link:hover {
   color: #2caeba;
+}
+.dark .active-nav-link {
   text-decoration: underline 2px #2caeba;
-  text-underline-offset: 10px;
 }
 /* navbar ends */
+/* sidebar starts */
+@media (max-width: 900px) {
+  .sidebar-right {
+    color: #2caeba;
+  }
+  .dark .sidebar {
+    background-color: #181a1b;
+  }
+  .dark .sidebar-link {
+    color: #999183;
+  }
+  .dark .social-link {
+    color: #cecac3;
+  }
+  .dark .active-sidebar-link {
+    text-decoration: underline 2px #2caeba;
+  }
+}
+/* sidebar ends */
 
 /* hero starts */
 .dark .hero {
@@ -54,20 +75,56 @@
 /* footer ends */
 
 /* about page starts */
-.dark .about-info {
-  color: #cecac3;
-}
-.dark .about-para {
-  color: #9fbad0;
-}
-.dark .skill {
-  background-color: #282b2d;
-  color: #cecac3;
-}
-.dark .skill:hover {
-  background-color: #2caeba;
+.dark .about-me {
+  background: linear-gradient(to right, #1e2022, #1a1c1d);
   color: white;
 }
+@media (max-width: 1100px) {
+  .dark .about-me {
+    background: linear-gradient(to bottom, #1e2022, #1a1c1d);
+  }
+}
+/* education starts */
+.dark .education h1 {
+  color: #cecac3;
+}
+.dark .education-details {
+  color: #d0f4f8;
+  background: #181a1b;
+}
+/* education ends */
+/* blogs start */
+.dark .blogs {
+  background-color: #181a1b;
+}
+.dark .blogs h1 {
+  color: #cecac3;
+}
+.dark .blog-card {
+  background-color: #1e2022;
+}
+.dark .blog-card h3 {
+  color: #cecac3;
+}
+.dark .blog-card p {
+  color: #9fbad0;
+}
+.dark .blog-link {
+  color: white;
+}
+.blog-card:hover {
+  background-color: #2caeba;
+  color: hsl(185, 94%, 87%);
+}
+.blog-card:hover h3 {
+  color: white;
+  text-decoration: underline 0.2rem white;
+  text-underline-offset: 0.7rem;
+}
+.blog-card:hover p {
+  color: hsl(185, 94%, 87%);
+}
+/* blogs end */
 /* about page ends */
 
 /* contact page starts */
@@ -120,50 +177,18 @@
 }
 .dark .active-job-btn {
   color: #2caeba;
-  border-left: solid 2px #2caeba;
 }
 .dark .job-btn:hover {
   color: #2caeba;
-  border-left: solid 2px #2caeba;
+}
+.dark .job-skill {
+  color: #999183;
+  background-color: #282b2d;
 }
 /* experience ends */
 
-/* blogs start */
-.dark .blogs {
-  background-color: #181a1b;
-}
-.dark .blogs h1 {
-  color: #cecac3;
-}
-.dark .blog-card {
-  background-color: #1e2022;
-}
-.dark .blog-card h3 {
-  color: #cecac3;
-}
-.dark .blog-card p {
-  color: #9fbad0;
-}
-.dark .blog-link {
-  color: white;
-}
-.blog-card:hover {
-  background-color: #2caeba;
-  color: hsl(185, 94%, 87%);
-}
-.blog-card:hover h3 {
-  color: white;
-  text-decoration: underline 0.2rem white;
-  text-underline-offset: 0.7rem;
-}
-.blog-card:hover p {
-  color: hsl(185, 94%, 87%);
-}
-
-/* blogs end */
-
-/* home projects starts */
-.dark .home-projects h3 {
+/* projects starts */
+.dark .projects h1 {
   color: #cecac3;
 }
 .dark .project-info {
@@ -195,31 +220,39 @@
 /* charts */
 /* open source ends */
 
-/* media queries starts */
-@media (max-width: 900px) {
-  .sidebar-right {
-    color: #2caeba;
-  }
-  /* sidebar starts */
-  .dark .sidebar {
-    background-color: #181a1b;
-  }
-  .dark .sidebar-link {
-    color: #999183;
-  }
-  .dark .social-link {
-    color: #cecac3;
-  }
-  /* sidebar ends */
-}
-/* media queries ends */
-
-/* dsa stats */
+/* achievements starts */
 .dark .dsastats-details a {
   color: #cecac3;
+  transition: all 0.5s ease;
 }
 .dark .dsastats-details .dsa-button:hover a {
   color: white;
-  transition: all 0.3s linear;
 }
-/* dsa stats */
+.dark .achievements {
+  color: #cecac3;
+}
+/* achievements ends */
+
+/* skills section starts */
+.dark .skills-section {
+  background-color: #181a1b;
+}
+.dark .skills-section h1 {
+  color: #cecac3;
+}
+.dark .category {
+  background-color: #000000;
+  color: white;
+}
+.dark .category:hover {
+  background-color: white;
+  color: #000000;
+}
+.dark .filter-icon {
+  color: white;
+}
+.dark .skill {
+  background-color: #282b2d;
+  color: #cdcac3;
+}
+/* skills section ends */

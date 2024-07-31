@@ -28,6 +28,11 @@
   display: flex;
   flex-direction: row;
   width: 90%;
+  transition: all 1s ease;
+}
+
+.project:hover {
+  transform: scale(1.02);
 }
 
 .reverse-flex {
