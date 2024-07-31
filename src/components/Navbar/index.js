@@ -9,14 +9,30 @@ import "./styles.css";
 import { BiMoon, BiSun } from "react-icons/bi";
 const parent = document.body;
 
-let darkMode = false;
+let darkMode = false,
+  lightMode = true;
+
+// check if Media-Queries are supported
+if (window.matchMedia) {
+  // check preferred theme
+  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    darkMode = true;
+    lightMode = false;
+  }
+}
+
 if (localStorage.getItem("theme") === "dark") {
   darkMode = true;
+  lightMode = false;
 }
-if (darkMode) {
-  parent.classList.add("dark");
+if (localStorage.getItem("theme") === "light") {
+  darkMode = false;
+  lightMode = true;
 }
-// dark mode
+
+if (darkMode) parent.classList.add("dark");
+if (lightMode)
+  if (parent.classList.contains("dark")) parent.classList.remove("dark");
 
 export const Navbar = () => {
   const { openSidebar } = useGlobalContext();
@@ -27,7 +43,8 @@ export const Navbar = () => {
     parent.classList.toggle("dark");
     if (parent.classList.contains("dark"))
       localStorage.setItem("theme", "dark");
-    else localStorage.removeItem("theme");
+    else localStorage.setItem("theme", "light");
+
     setIsDarkMode((prevMode) => !prevMode);
   };
 
