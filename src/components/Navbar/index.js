@@ -13,11 +13,14 @@ let darkMode = false,
   lightMode = true;
 
 // check if Media-Queries are supported
-if (window.matchMedia) {
+if (window.matchMedia && !(localStorage.getItem("is-set-by-user") === "true")) {
   // check preferred theme
   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
     darkMode = true;
     lightMode = false;
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
   }
 }
 
@@ -41,6 +44,7 @@ export const Navbar = () => {
 
   const darkModeHandler = () => {
     parent.classList.toggle("dark");
+    localStorage.setItem("is-set-by-user", "true");
     if (parent.classList.contains("dark"))
       localStorage.setItem("theme", "dark");
     else localStorage.setItem("theme", "light");
