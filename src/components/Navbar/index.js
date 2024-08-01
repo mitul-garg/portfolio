@@ -13,7 +13,7 @@ let darkMode = false,
   lightMode = true;
 
 // check if Media-Queries are supported
-if (window.matchMedia && !(localStorage.getItem("is-set-by-user") == "true")) {
+if (window.matchMedia && !(localStorage.getItem("is-set-by-user") === "true")) {
   // check preferred theme
   if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
     darkMode = true;
