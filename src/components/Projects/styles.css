@@ -28,6 +28,11 @@
   display: flex;
   flex-direction: row;
   width: 90%;
+  transition: all 1s ease;
+}
+
+.project:hover {
+  transform: scale(1.02);
 }
 
 .reverse-flex {
@@ -37,7 +42,8 @@
 .project-img {
   display: block;
   object-fit: cover;
-  max-width: 800px;
+  /* max-width: 800px; */
+  height: 450px;
 }
 
 .project-info {
@@ -46,6 +52,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 450px;
 }
 
 .project-info h2 {
@@ -54,6 +61,9 @@
   font-size: 1.8rem;
   line-height: 3rem;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
 }
 
 .project-info p {
@@ -90,7 +100,7 @@
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .code-link {
@@ -112,6 +122,11 @@
   .project-img {
     width: 100%;
     max-width: max-content;
+    height: auto;
+  }
+
+  .project-info {
+    height: auto;
   }
 
   .project-info p {
