@@ -12,6 +12,7 @@ import kalaamanch from "../assets/images/kalaamanch.png";
 import reactprojects from "../assets/images/reactprojects.png";
 import jsprojects from "../assets/images/jsprojects.png";
 import movienext from "../assets/images/movienext.png";
+import stutter from "../assets/images/stutter.png";
 
 // placeholder images
 import portfolioPlaceholder from "../assets/placeholder-images/portfolio.jpg";
@@ -25,8 +26,22 @@ import kalaamanchPlaceholder from "../assets/placeholder-images/kalaamanch.jpg";
 import reactprojectsPlaceholder from "../assets/placeholder-images/reactprojects.jpg";
 import jsprojectsPlaceholder from "../assets/placeholder-images/jsprojects.jpg";
 import movienextPlaceholder from "../assets/placeholder-images/movienext.jpg";
+import stutterPlaceholder from "../assets/placeholder-images/stutter.jpg";
+
+// https://www.freecodecamp.org/news/how-to-lazy-load-images-in-react/
 
 export const projects = [
+  {
+    id: uuidv4(),
+    title: "Stutter Classification",
+    img: stutter,
+    placeholderImg: stutterPlaceholder,
+    details:
+      "A stutter classification method developed using Machine Learning and MFCC features",
+    technologies: ["Python", "Librosa", "Scikit-learn"],
+    sourceCode: "https://github.com/mitul-garg/stutter-classification",
+    link: "https://www.kaggle.com/datasets/mitulgargsam/sep28kmfcc",
+  },
   {
     id: uuidv4(),
     title: "Location Blog",
