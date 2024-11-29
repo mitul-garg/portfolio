@@ -9,10 +9,12 @@ export const jobs = [
     dates: "march 2024 - present",
     skills: ["Terraform", "Azure", "C#"],
     duties: [
-      "  Increased Code Coverage of components by more than 20%",
-      "  Refactored the code using Terraform modules to reduce code redundancy",
-      "  Gained knowledge related to Devops & Cloud Computing",
-      // "  Reported bugs and gave feedback and suggestions on previously existing content",
+      "  Part of Optum’s Voice Analytics Platform (VAP), a PaaS solution providing speech-to-text transcription and plug-and-play access for business units.",
+      "  Leveraging Gen AI to efficiently summarize call transcripts",
+      "  Consolidating multiple IaC components into a unified script, streamlining deployments",
+      "  Led a team of six members in the absence of the team lead, ensuring smooth operations and project delivery",
+      "  Migrated from Azure APIM to on-premises APIM with OAuth implementation in Node.js",
+      "  Enhanced exception handling and code coverage across .NET components for robust debugging",
     ],
   },
   {
