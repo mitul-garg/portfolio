@@ -38,7 +38,7 @@ export const projects = [
     placeholderImg: stutterPlaceholder,
     details:
       "A stutter classification method developed using Machine Learning and MFCC features",
-    technologies: ["MERN Stack"],
+    technologies: ["Python", "Librosa", "Scikit-learn"],
     sourceCode: "https://github.com/mitul-garg/stutter-classification",
     link: "https://www.kaggle.com/datasets/mitulgargsam/sep28kmfcc",
   },
