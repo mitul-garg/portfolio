@@ -96,7 +96,7 @@ export const projects = [
       "A Single Page React App built with react-router-dom for navigation on other pages.The Portfolio is completely responsive and looks good on all screen sizes. All the data is dynamically loaded in each component using Javascript imports!",
     technologies: ["CSS", "Javascript", "React JS"],
     sourceCode: "https://github.com/mitul-garg/portfolio",
-    link: "https://mitulgarg.live",
+    link: "https://mitulgarg.netlify.app",
   },
   {
     id: uuidv4(),
