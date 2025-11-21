@@ -26,8 +26,9 @@ const problemsData = {
 };
 
 const achievements = [
+  "Rated 5-Star (Exceeds Expectations) in the annual performance review.",
+  "Achieved Azure Fundamentals (AZ-900) certification.",
   "Solved 1100+ problems across platforms",
-  "Passed GCP Associate Cloud Engineer Certification",
   "Rated 1769 (Top 8.5% Globally) on Leetcode Contests",
   "Ranked in Top 667 out of 48726 Participants in Lowe’s House of Code",
   "Rank 2300/23k+ (Top 10%) in Leetcode Weekly Contest 278",
@@ -67,9 +68,9 @@ export const Achievements = () => {
                 <div>
                   <span>
                     <FaStar className="dsa-bullet-mobile" /> {acm}
-                    {acm.includes("GCP") && (
+                    {acm.includes("Azure") && (
                       <a
-                        href="https://google.accredible.com/af693e01-805e-4c42-89d1-d05663f3164e?key=20bc7121c3392d6773c38ece2e3019f86212c3e06cdffaa8245eca11bdd4fca8"
+                        href="https://learn.microsoft.com/en-gb/users/mitulgarg-4195/credentials/614258450c6f78e6?ref=https%3A%2F%2Fwww.google.com%2F"
                         target="_blank"
                         rel="noreferrer"
                       >
