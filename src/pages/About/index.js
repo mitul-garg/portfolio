@@ -11,14 +11,18 @@ export const About = () => {
       <div className="about-me">
         <img src={aboutImg} alt="about-img" className="about-img" />
         <article className="about-info">
-          I am a Software Engineer at Optum with a strong passion for Cloud
-          Computing, Web Development, and Problem Solving. Currently, I am
-          working on enhancing the Infrastructure as Code (IaC) for the Voice
-          Analytics Platform (VAP) team, utilizing Azure, Terraform, and C#. I
-          have experience with Java, React JS, and the MERN Stack. I am excited
-          to continue my journey in Software Engineering and Problem Solving,
-          and I am eager to take on new challenges and opportunities. You can
-          ping me up for playing Chess & Cricket as well!
+          Senior Software Engineer at Optum with 2+ years of experience building
+          high-performance, cloud-native backend systems using .NET and
+          microservices architecture. Currently contributing to the Voice
+          Analytics Platform (Gen AI-powered PaaS), designing and scaling APIs
+          that handle 40,000+ requests per minute on Azure Kubernetes Service.
+          Experienced in Azure, AWS, and GCP, with strong expertise in
+          distributed systems, event-driven architecture, authentication
+          (OAuth2/JWT/Azure AD), and performance optimization. Delivered
+          measurable improvements including 99% API latency reduction and 80%
+          reduction in Redis cache evictions. Recognized as a 5-Star performer
+          (Exceeds Expectations) for two consecutive years at Optum, leading to
+          promotion to Senior Software Engineer (March 2026).
         </article>
       </div>
       <Education />

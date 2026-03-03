@@ -26,7 +26,7 @@ const problemsData = {
 };
 
 const achievements = [
-  "Rated 5-Star (Exceeds Expectations) in the annual performance review.",
+  "Rated 5-Star (Exceeds Expectations) in the annual performance review for both years at Optum.",
   "Achieved Azure Fundamentals (AZ-900) certification.",
   "Solved 1100+ problems across platforms",
   "Rated 1769 (Top 8.5% Globally) on Leetcode Contests",
