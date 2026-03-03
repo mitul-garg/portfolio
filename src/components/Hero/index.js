@@ -11,7 +11,7 @@ export const Hero = () => {
       <article className="intro">
         <div className="underline-desktop" />
         <h1>I'm Mitul</h1>
-        <h6>Software Engineer @ Optum</h6>
+        <h6>Senior Software Engineer @ Optum</h6>
         <div className="underline-mobile" />
         <img src={heroImg} alt="hero" className="hero-img-mobile" />
         <div className="hero-btn-container">
