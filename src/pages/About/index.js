@@ -11,18 +11,16 @@ export const About = () => {
       <div className="about-me">
         <img src={aboutImg} alt="about-img" className="about-img" />
         <article className="about-info">
-          Senior Software Engineer at Optum with 2+ years of experience building
-          high-performance, cloud-native backend systems using .NET and
-          microservices architecture. Currently contributing to the Voice
-          Analytics Platform (Gen AI-powered PaaS), designing and scaling APIs
-          that handle 40,000+ requests per minute on Azure Kubernetes Service.
-          Experienced in Azure, AWS, and GCP, with strong expertise in
-          distributed systems, event-driven architecture, authentication
-          (OAuth2/JWT/Azure AD), and performance optimization. Delivered
-          measurable improvements including 99% API latency reduction and 80%
-          reduction in Redis cache evictions. Recognized as a 5-Star performer
-          (Exceeds Expectations) for two consecutive years at Optum, leading to
-          promotion to Senior Software Engineer (March 2026).
+          Senior Software Engineer with 3+ years of professional experience
+          building high-performance, cloud-native backend systems across .NET
+          Web APIs, microservices, and distributed systems. Currently the first
+          engineering hire at an early-stage API marketplace startup, helping
+          build out the engineering team and platform foundation. Previously at
+          Optum (UnitedHealth Group), built and scaled .NET microservices for a
+          Gen AI-powered voice analytics platform handling 40,000+ requests per
+          minute, delivering measurable performance gains across Azure, GCP, and
+          AWS. Recognized as a 5-Star performer (Exceeds Expectations) for two
+          consecutive years, earning promotion to Senior Software Engineer.
         </article>
       </div>
       <Education />
